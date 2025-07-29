@@ -1,0 +1,1045 @@
+kernel||3|2003-03-30|"Wojciech Purczynski"|||"Linux Kernel 2.2.x/2.4.x (RedHat) - 'ptrace/kmod' Local Privilege Escalation"|3.c
+kernel||12|2003-04-14|KuRaK|2.4.20||"Linux Kernel < 2.4.20 - Module Loader Privilege Escalation"|12.c
+other||21|2003-04-29|Xpl017Elz|||"Qpopper 4.0.x - 'poppassd' Privilege Escalation"|21.c
+other||31|2003-05-14|anonymous|||"CDRTools CDRecord 2.0 (Mandrake / Slackware) - Local Privilege Escalation"|31.pl
+other||40|2003-06-10|anonymous|||"Mandrake Linux 8.2 - '/usr/mail' Local Overflow"|40.pl
+other||75|2003-08-06|vade79|||"man-db 2.4.1 - 'open_cat_stream()' Local uid=man"|75.sh
+other||91|2003-09-05|"Steve Grubb"|||"Stunnel 3.24/4.00 - Daemon Hijacking"|91.c
+other||93|2003-09-09|"Jon Hart"|||"RealPlayer 9 *nix - Local Privilege Escalation"|93.c
+other||104|2003-09-21|c0wboy|||"hztty 2.0 (RedHat 9.0) - Local Privilege Escalation"|104.c
+other||106|2003-09-27|"Juan Escriba"|||"IBM DB2 - Universal Database 7.2 'db2licm' Local Overflow"|106.c
+other||120|2003-11-13|Li0n7|||"TerminatorX 3.81 - Local Stack Overflow / Local Privilege Escalation"|120.c
+kernel||129|2003-12-02|"Christophe Devine"|2.4.22||"Linux Kernel 2.4.22 - 'do_brk()' Local Privilege Escalation (1)"|129.asm
+kernel||131|2003-12-05|"Wojciech Purczynski"|2.4.22||"Linux Kernel 2.4.22 - 'do_brk()' Local Privilege Escalation (2)"|131.c
+other||141|2004-01-06|"Christophe Devine"|||"Linux Kernel 2.4.23/2.6.0 - 'do_mremap()' Bound Checking Validator (1)"|141.c
+other||142|2004-01-07|"Christophe Devine"|||"Linux Kernel 2.4.23/2.6.0 - 'do_mremap()' Bound Checking Validator (2)"|142.c
+other||144|2004-01-15|l0om|||"SuSE Linux 9.0 - YaST Configuration Skribt Overwrite Files"|144.c
+kernel||145|2004-01-15|"Paul Starzetz"|2.4.23||"Linux Kernel 2.4.23/2.6.0 - 'do_mremap()' Bound Checking Privilege Escalation"|145.c
+other||152|2004-02-13|"Abhisek Datta"|||"rsync 2.5.7 - Local Stack Overflow / Local Privilege Escalation"|152.c
+other||154|2004-02-18|"Christophe Devine"|||"Linux Kernel 2.2.25/2.4.24/2.6.2 - 'mremap()' Validator"|154.c
+kernel||160|2004-03-01|"Paul Starzetz"|2.2.25||"Linux Kernel 2.2.25/2.4.24/2.6.2 - 'mremap()' Local Privilege Escalation"|160.c
+other||178|2000-11-15|"Michel Kaempf"|||"LBL Traceroute - Local Privilege Escalation"|178.c
+other||180|2000-11-15|vade79|||"GnomeHack 1.0.5 - Local Buffer Overflow"|180.c
+other||182|2000-11-16|anonymous|||"RedHat 6.2 - '/sbin/restore' Local Privilege Escalation"|182.sh
+other||183|2000-11-16|anonymous|||"Oracle (oidldapd connect) - Local Command Line Overflow"|183.c
+other||184|2000-11-16|Tlabs|||"RedHat 6.2 Restore and Dump - Local Privilege Escalation"|184.pl
+other||186|2000-11-17|vade79|||"xsplumber - 'strcpy()' Local Buffer Overflow"|186.pl
+other||193|2000-11-19|mat|||"dump 0.4b15 - Local Privilege Escalation"|193.sh
+other||203|2000-11-21|"Michal Zalewski"|||"vixie-cron - Local Privilege Escalation"|203.sh
+other||205|2000-11-29|Tlabs|||"RedHat 6.2 /usr/bin/rcp - 'SUID' Local Privilege Escalation"|205.pl
+other||206|2000-11-29|mat|||"dump 0.4b15 (RedHat 6.2) - Local Privilege Escalation"|206.c
+other||209|2000-11-30|localcore|||"GLIBC - '/bin/su' Local Privilege Escalation"|209.c
+other||215|2000-12-02|sk8|||"GLIBC locale - bug mount"|215.c
+other||216|2000-12-02|"Michel Kaempf"|||"dislocate 1.3 - Local i386"|216.c
+other||217|2000-12-04|t--zen|||"UUCP - File Creation/Overwriting Symlinks"|217.c
+other||218|2000-12-04|isox|||"expect (/usr/bin/expect) - Local Buffer Overflow"|218.c
+other||219|2000-12-04|"Cody Tubbs"|||"GnomeHack - Local Buffer Overflow"|219.c
+other||221|2000-12-06|"Cody Tubbs"|||"Kwintv - Local Buffer Overflow"|221.c
+other||222|2000-12-06|"Cody Tubbs"|||"gnome_segv - Local Buffer Overflow"|222.c
+other||229|2000-12-15|zorgon|||"xsoldier 0.96 (RedHat 6.2) - Local Buffer Overflow"|229.c
+other||231|2000-12-15|mat|||"Pine (Local Message Grabber) - Local Message Read"|231.sh
+other||249|2003-01-15|logikal|||"GLIBC locale - Format Strings"|249.c
+other||252|2001-01-15|teleh0r|||"Seyon 2.1 rev. 4b i586-Linux (RedHat 4.0/5.1) - Local Overflow"|252.pl
+other||255|2001-01-19|teleh0r|||"RedHat 6.1 - 'man' Local Overflow / Local Privilege Escalation"|255.pl
+other||257|2001-01-25|teleh0r|||"jaZip 0.32-2 - Local Buffer Overflow"|257.pl
+other||258|2001-01-25|krochos|||"glibc-2.2 / openssh-2.3.0p1 / glibc 2.1.9x - File Read"|258.sh
+other||260|2001-01-26|"Michel Kaempf"|||"splitvt < 1.6.5 - Local Overflow"|260.c
+other||273|2004-04-20|x314|||"SquirrelMail - 'chpasswd' Local Buffer Overflow"|273.c
+other||285|2001-03-03|kengz|||"Slackware 7.1 - '/usr/bin/mail' Local Privilege Escalation"|285.c
+other||290|2001-03-04|Shadow|||"GLIBC 2.1.3 - 'LD_PRELOAD' Local Privilege Escalation"|290.tcsh
+other||317|1996-01-01|"Jared Mauch"|||"Resolv+ 'RESOLV_HOST_CONF' - Linux Library Command Execution"|317.txt
+other||319|1996-02-13|_Phantom_|||"sudo.bin - NLSPATH Privilege Escalation"|319.c
+other||320|1996-06-01|"Jon Lewis"|||"suid_perl 5.001 - Command Execution"|320.pl
+other||322|1996-08-24|"b0z0 bra1n"|||"Xt Library - Local Privilege Escalation"|322.c
+kernel||325|1996-10-25|"Vadim Kolontsov"|||"BSD / Linux - 'lpr' Local Privilege Escalation"|325.c
+other||331|1997-05-14|"Ming Zhang"|||"LibXt - 'XtAppInitialize()' Local Overflow *xterm"|331.c
+other||339|1997-06-20|"BeastMaster V"|||"zgv - '$HOME' Local Buffer Overflow"|339.c
+other||369|2004-08-01|"Serkan Akpolat"|||"SoX - Local Buffer Overflow"|369.pl
+other||374|2004-08-04|Rave|||"SoX - '.wav' Local Buffer Overflow"|374.c
+other||375|2004-08-04|"Paul Starzetz"|||"Linux Kernel 2.4.26 - File Offset Pointer Handling Memory Disclosure"|375.c
+other||393|2004-08-13|anonymous|||"LibPNG 1.2.5 - 'png_jmpbuf()' Local Buffer Overflow"|393.c
+other||394|2004-08-13|pi3|||"ProFTPd - 'ftpdctl' 'pr_ctrls_connect' Local Overflow"|394.c
+other||405|2004-08-20|infamous41md|||"XV 3.x - '.BMP' Parsing Local Buffer Overflow"|405.c
+kernel||411|2001-01-01|sd|||"Sendmail 8.11.x (Linux/i386) - Local Privilege Escalation"|411.c
+other||417|2004-08-25|Bytes|||"SquirrelMail - 'chpasswd' Local Privilege Escalation (Brute Force)"|417.c
+other||434|2004-09-07|"Karol WiÃªsek"|||"CDRDAO - Local Privilege Escalation"|434.sh
+other||438|2004-09-11|I)ruid|||"CDRecord's ReadCD - '$RSH exec()' SUID Shell Creation"|438.sh
+other||466|2004-09-16|"Luiz Fernando Camargo"|||"htpasswd Apache 1.3.31 - Local Overflow"|466.pl
+other||469|2004-09-19|"Max Vozeler"|||"CDRecord's ReadCD - Local Privilege Escalation"|469.sh
+other||470|2004-09-21|"Angelo Rosiello"|||"SudoEdit 1.6.8 - Local Change Permission"|470.c
+other||476|2004-09-23|CoKi|||"glFTPd (Slackware 9.0/9.1/10.0) - Local Stack Overflow"|476.c
+other||479|2004-09-25|n4rk0tix|||"GNU Sharutils 4.2.1 - Local Format String"|479.c
+other||586|2004-10-20|Sha0|||"BitchX 1.0c19 - Local Privilege Escalation"|586.c
+other||587|2004-10-21|xCrZx|||"Apache 1.3.31 mod_include - Local Buffer Overflow"|587.c
+other||591|2004-10-23|CoKi|||"Socat 1.4.0.2 - Not SETUID Local Format String"|591.c
+other||600|2004-10-26|anonymous|||"GD Graphics Library - Local Heap Overflow"|600.c
+other||601|2004-10-26|infamous41md|||"libxml 2.6.12 nanoftp - Local Buffer Overflow"|601.c
+other||624|2004-11-10|"Paul Starzetz"|||"Linux Kernel 2.4.27/2.6.8 - 'binfmt_elf' Executable File Read"|624.c
+other||657|2004-11-25|pi3|||"atari800 - Local Privilege Escalation"|657.c
+other||669|2004-12-01|c0d3r|||"Aspell (word-list-compress) - Command Line Stack Overflow"|669.c
+other||684|2004-12-14|CoKi|||"TipxD 1.1.1 - Not SETUID Local Format String"|684.c
+other||695|2004-12-17|Gangstuck|||"Cscope 15.5 - Symlink"|695.c
+kernel||718|2004-12-24|"Marco Ivaldi"|2.6.7||"Linux Kernel < 2.6.7-rc3 (Slackware 9.1 / Debian 3.0) - 'sys_chown()' Group Ownership Alteration Privilege Escalation"|718.c
+other||741|2005-01-05|nekd0|||"HTGET 0.9.x - Local Privilege Escalation"|741.pl
+kernel||744|2005-01-07|"Paul Starzetz"|2.4.29||"Linux Kernel 2.4.29-rc2 - 'uselib()' Local Privilege Escalation (1)"|744.c
+other||756|2005-01-15|"Rafael Carrasco"|||"Exim 4.41 - 'dns_build_reverse' Local Buffer Overflow"|756.c
+other||763|2005-01-20|vade79|||"fkey 0.0.2 - Local File Accessibility"|763.c
+other||776|2005-01-26|ZzagorR|||"Mandrake / Slackware /usr/bin/trn - Local Privilege Escalation (Not SUID)"|776.c
+kernel||778|2005-01-27|"Tim Hsu"|||"Linux Kernel 2.4 - 'uselib()' Local Privilege Escalation (2)"|778.c
+kernel||779|2005-01-30|super|2.2.6||"ncpfs < 2.2.6 (Gentoo / Linux) - Local Privilege Escalation"|779.sh
+other||788|2005-02-05|"Charles Stevenson"|||"Operator Shell (osh) 1.7-12 - Local Privilege Escalation"|788.pl
+other||791|2005-02-07|"Kevin Finisterre"|||"Setuid perl - 'PerlIO_Debug()' Local Overflow"|791.c
+other||792|2005-02-07|"Kevin Finisterre"|||"Setuid perl - 'PerlIO_Debug()' Root Owned File Creation Privilege Escalation"|792.c
+other||796|2005-02-07|darkeagle|||"Exim 4.42 - Local Privilege Escalation"|796.sh
+other||816|2005-02-13|lizard|||"GNU a2ps - Anything to PostScript Not SUID Local Overflow"|816.c
+other||824|2005-09-13|Qnix|||"VisualBoyAdvanced 1.7.x - Non SUID Local Shell"|824.c
+other||876|2005-03-14|"Christophe Devine"|||"PaX - Double-Mirrored VMA munmap Privilege Escalation"|876.c
+other||877|2005-03-14|"Kevin Finisterre"|||"Frank McIngvale LuxMan 0.41 - Local Buffer Overflow"|877.pl
+other||890|2005-03-21|lammat|||"PostScript Utilities - 'psnup' Local Buffer Overflow"|890.pl
+kernel||895|2005-03-22|sd|||"Linux Kernel 2.4.x/2.6.x - 'uselib()' Local Privilege Escalation (3)"|895.c
+other||913|2005-04-05|lammat|||"Aeon 0.2a - Local Linux (1)"|913.pl
+other||914|2005-04-05|patr0n|||"Aeon 0.2a - Local Linux (2)"|914.c
+other||924|2005-04-08|lammat|||"sash 3.7 - Local Buffer Overflow"|924.c
+kernel||926|2005-10-26|qobaiashi|||"Linux Kernel 2.4.x/2.6.x - 'Bluez' BlueTooth Signed Buffer Index Privilege Escalation (2)"|926.c
+other||950|2005-04-21|sk|||"BitchX 1.0c20 - Local Buffer Overflow"|950.c
+other||973|2005-05-01|"Kevin Finisterre"|||"ARPUS/Ce - Local File Overwrite (setuid)"|973.c
+other||974|2005-05-01|"Kevin Finisterre"|||"ARPUS/Ce - Local Overflow (setuid)"|974.pl
+other||997|2005-05-17|newbug|||"cdrdao (Mandrake 10.2) - Local Privilege Escalation"|997.sh
+other||1009|2005-05-25|Plugger|||"Exim 4.41 - 'dns_build_reverse' Local Read Emails"|1009.c
+other||1029|2005-06-04|Qnix|||"ePSXe 1.6.0 - 'nogui()' Local Privilege Escalation"|1029.c
+other||1154|2005-08-16|"Charles Stevenson"|||"Operator Shell (osh) 1.7-13 - Local Privilege Escalation"|1154.pl
+other||1170|2001-07-13|"Charles Stevenson"|||"Debian 2.2 /usr/bin/pileup - Local Privilege Escalation"|1170.c
+other||1181|2004-12-24|"Marco Ivaldi"|||"MySQL 4.0.17 (Linux) - User-Defined Function (UDF) Dynamic Library (1)"|1181.c
+other||1187|2005-08-30|vade79|||"Gopher 3.0.9 - '+VIEWS' Client-Side Buffer Overflow"|1187.c
+other||1215|2005-09-14|Qnix|||"Wireless Tools 26 (IWConfig) - Local Privilege Escalation"|1215.c
+kernel||1229|2005-09-24|kingcope|4.0.8||"Qpopper 4.0.8 (Linux) - 'poppassd' Local Privilege Escalation"|1229.sh
+other||1267|2005-10-20|qaaz|||"XMail 1.21 - '-t' Command Line Option Local Buffer Overflow / Local Privilege Escalation"|1267.c
+kernel||1297|2005-11-07|"Xavier de Leon"|2.15.484||"F-Secure Internet GateKeeper for Linux < 2.15.484 / Gateway < 2.16 - Local Privilege Escalation"|1297.py
+kernel||1299|2005-11-08|Hunger|||"Linux chfn (SuSE 9.3/10) - Local Privilege Escalation"|1299.sh
+other||1300|2005-11-09|"Charles Stevenson"|||"Operator Shell (OSH) 1.7-14 - Local Privilege Escalation"|1300.sh
+other||1310|2005-11-09|"Breno Silva Pinto"|||"Sudo 1.6.8p9 - SHELLOPTS/PS4 Environment Variables Privilege Escalation"|1310.txt
+other||1316|2005-11-12|"Kevin Finisterre"|||"Veritas Storage Foundation 4.0 - VCSI18N_LANG Local Overflow"|1316.pl
+kernel||1397|2005-12-30|alert7|2.6.9||"Linux Kernel 2.6.9 < 2.6.11 (RHEL 4) - 'SYS_EPoll_Wait' Local Integer Overflow / Local Privilege Escalation"|1397.c
+other||1412|2006-01-10|xwings|||"Xmame 0.102 - '-lang' Local Buffer Overflow"|1412.rb
+other||1415|2006-01-13|Qnix|||"Xmame 0.102 - 'lang' Local Buffer Overflow"|1415.c
+other||1425|2006-01-21|sj|||"Xmame 0.102 - '-pb/-lang/-rec' Local Buffer Overflow"|1425.c
+other||1445|2006-01-24|"Johnny Mast"|||"Eterm LibAST < 0.7 - '-X' Option Privilege Escalation"|1445.c
+other||1449|2006-01-25|"rod hedor"|||"SquirrelMail 3.1 - Change Passwd Plugin Local Buffer Overflow"|1449.c
+other||1518|2006-02-20|"Marco Ivaldi"|||"MySQL 4.x/5.0 (Linux) - User-Defined Function (UDF) Dynamic Library (2)"|1518.c
+other||1579|2006-03-12|"Kristian Hermansen"|||"Ubuntu 5.10 Installer - Password Disclosure"|1579.pl
+other||1591|2006-03-18|"Gotfault Security"|||"Python 2.4.2 - 'realpath()' Local Stack Overflow"|1591.py
+other||1596|2006-03-20|"H D Moore"|||"X.Org X11 (X11R6.9.0/X11R7.0) - Local Privilege Escalation"|1596.txt
+other||1831|2006-05-26|nitr0us|||"tiffsplit (libtiff 3.8.2) - Local Stack Buffer Overflow"|1831.txt
+kernel||2004|2006-07-11|"dreyer & RoMaNSoFt"|2.6.13||"Linux Kernel 2.6.13 < 2.6.17.4 - 'sys_prctl()' Local Privilege Escalation (1)"|2004.c
+kernel||2005|2006-07-12|"Julien Tinnes"|2.6.13||"Linux Kernel 2.6.13 < 2.6.17.4 - 'sys_prctl()' Local Privilege Escalation (2)"|2005.c
+kernel||2006|2006-07-13|"Marco Ivaldi"|2.6.13||"Linux Kernel 2.6.13 < 2.6.17.4 - 'sys_prctl()' Local Privilege Escalation (3)"|2006.c
+kernel||2011|2006-07-14|Sunay|2.6.13||"Linux Kernel 2.6.13 < 2.6.17.4 - 'sys_prctl()' Local Privilege Escalation (4)"|2011.sh
+kernel||2013|2006-07-15|h00lyshit|2.6.17||"Linux Kernel 2.6.17.4 - 'proc' Local Privilege Escalation"|2013.c
+other||2015|2006-07-15|"Xavier de Leon"|||"Rocks Clusters 4.1 - 'umount-loop' Local Privilege Escalation"|2015.py
+other||2016|2006-07-15|"Xavier de Leon"|||"Rocks Clusters 4.1 - 'mount-loop' Local Privilege Escalation"|2016.sh
+kernel||2031|2006-07-18|"Marco Ivaldi"|2.6.13||"Linux Kernel 2.6.13 < 2.6.17.4 - 'logrotate prctl()' Local Privilege Escalation"|2031.c
+other||2144|2006-08-08|"Karol Wiesek"|||"liblesstif 2-0.93.94-4mdk - 'DEBUG_FILE' Local Privilege Escalation"|2144.sh
+other||2193|2006-08-16|Andi|||"PHP 4.4.3/5.1.4 - 'sscanf' Local Buffer Overflow"|2193.php
+other||2338|2006-09-09|Qnix|||"openmovieeditor 0.0.20060901 - 'name' Local Buffer Overflow"|2338.c
+other||2404|2006-09-20|Guay-Leroux|||"Dr.Web AntiVirus 4.33 - LHA long Directory name Local Overflow"|2404.c
+other||2466|2006-10-01|"Clint Torrez"|||"cPanel 10.8.x - cpwrap via MySQLAdmin Privilege Escalation"|2466.pl
+other||2492|2006-10-08|Sha0|||".ELF Binaries - Local Privilege Escalation"|2492.s
+other||2581|2006-10-16|"Rapid7 Security"|||"Nvidia Graphics Driver 8774 - Local Buffer Overflow"|2581.c
+other||3154|2007-01-18|prdelka|||"GNU/Linux mbse-bbs 0.70.0 - Local Buffer Overflow"|3154.c
+other||3213|2007-01-28|"Sebastian Wolfgarten"|||"Trend Micro VirusWall 3.81 - 'vscan/VSAPI' Local Buffer Overflow"|3213.c
+other||3330|2007-02-18|Revenge|||"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' 'support' Local Buffer Overflow (1)"|3330.pl
+other||3333|2007-02-19|Revenge|||"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' 'support' Local Buffer Overflow (2)"|3333.pl
+kernel||3356|2007-02-21|"Jon Hart"|6.0.3||"Nortel SSL VPN Linux Client 6.0.3 - Local Privilege Escalation"|3356.sh
+other||3384|2007-02-28|"Kristian Hermansen"|||"Apache 1.3.34/1.3.33 (Ubuntu / Debian) - CGI TTY Privilege Escalation"|3384.c
+other||3426|2007-03-07|"Stefan Esser"|||"PHP < 4.4.5/5.2.1 - 'shmop' Local Code Execution"|3426.php
+other||3427|2007-03-07|"Stefan Esser"|||"PHP < 4.4.5/5.2.1 - 'shmop' SSL RSA Private-Key Disclosure"|3427.php
+other||3440|2007-03-09|"Stefan Esser"|||"PHP 5.2.0 / PHP with PECL ZIP 1.8.3 - 'zip://' URL Wrapper Buffer Overflow"|3440.php
+other||3479|2007-03-14|"Stefan Esser"|||"PHP 5.2.1 - 'session_regenerate_id()' Double-Free"|3479.php
+other||3480|2007-03-14|"Stefan Esser"|||"PHP 5.2.0/5.2.1 - Rejected Session ID Double-Free"|3480.php
+other||3499|2007-03-16|"Stefan Esser"|||"PHP 4.4.6/5.2.1 - 'array_user_key_compare()' ZVAL dtor Local Overflow"|3499.php
+other||3525|2007-03-20|"Stefan Esser"|||"PHP 4.4.6/5.2.1 - ext/gd Already Freed Resources Usage"|3525.php
+other||3529|2007-03-20|"Stefan Esser"|||"PHP 5.2.1 - 'hash_update_file()' Freed Resource Usage"|3529.php
+other||3571|2007-03-25|"Stefan Esser"|||"PHP < 4.4.5/5.2.1 - '_SESSION unset()' Local Overflow"|3571.php
+other||3572|2007-03-25|"Stefan Esser"|||"PHP < 4.4.5/5.2.1 - '_SESSION' Deserialization Overwrite"|3572.php
+other||3587|2007-03-27|"Robert Swiecki"|||"Linux Kernel 2.6.20 with DCCP Support - Memory Disclosure (1)"|3587.c
+other||3595|2007-03-28|"Robert Swiecki"|||"Linux Kernel 2.6.20 with DCCP Support - Memory Disclosure (2)"|3595.c
+other||3730|2007-04-13|Xpl017Elz|||"ProFTPd 1.3.0/1.3.0a - 'mod_ctrls' exec-shield Local Overflow"|3730.txt
+other||4028|2008-06-18|Rembrandt|||"Screen 4.0.3 (OpenBSD) - Local Authentication Bypass"|4028.txt
+other||4172|2007-07-10|dreyer|||"Linux Kernel < 2.6.20.2 - 'IPv6_Getsockopt_Sticky' Memory Leak"|4172.c
+other||4698|2007-12-06|bannedit|||"Send ICMP Nasty Garbage (SING) - Append File Logrotate"|4698.c
+kernel||4756|2007-12-18|Backdoored|2.6.11||"Linux Kernel < 2.6.11.5 - BlueTooth Stack Privilege Escalation"|4756.c
+kernel||5092|2008-02-09|qaaz|2.6.17||"Linux Kernel 2.6.17 < 2.6.24.1 - 'vmsplice' Local Privilege Escalation (2)"|5092.c
+kernel||5093|2008-02-09|qaaz|2.6.23||"Linux Kernel 2.6.23 < 2.6.24 - 'vmsplice' Local Privilege Escalation (1)"|5093.c
+other||5167|2008-02-21|vl4dZ|||"X.Org xorg-x11-xfs 1.0.2-3.1 - Local Race Condition"|5167.sh
+other||5424|2008-04-10|"Albert Sellares"|||"AlsaPlayer < 0.99.80-rc3 - Vorbis Input Local Buffer Overflow"|5424.txt
+other||6032|2008-07-08|"Felipe Andres Manzano"|||"Poppler 0.8.4 - libpoppler Uninitialized pointer Code Execution"|6032.py
+other||6337|2008-08-31|RoMaNSoFt|||"Postfix 2.6-20080814 - 'symlink' Local Privilege Escalation"|6337.sh
+kernel||6851|2008-10-27|gat3way|2.6.22||"Linux Kernel < 2.6.22 - 'ftruncate()'/'open()' Local Privilege Escalation"|6851.c
+other||7177|2008-11-20|"Jakub Wartak"|||"Oracle Database Vault - 'ptrace(2)' Local Privilege Escalation"|7177.c
+other||7313|2008-12-01|"Paul Szabo"|||"Debian - Symlink In Login Arbitrary File Ownership"|7313.sh
+other||7393|2008-12-09|gat3way|||"PHP - 'Safe_mode' Bypass via 'proc_open()' and custom Environment"|7393.txt
+other||7618|2008-12-29|"Jon Oberheide"|||"Linux Kernel < 2.6.26.4 - SCTP Kernel Memory Disclosure"|7618.c
+other||7681|2009-01-06|"Paul Szabo"|||"Debian XTERM - 'DECRQSS/comments' Code Execution"|7681.txt
+other||7855|2009-01-25|"Bernardo Damele"|||"PostgreSQL 8.2/8.3/8.4 - UDF for Command Execution"|7855.txt
+other||7856|2009-01-25|"Bernardo Damele"|||"MySQL 4/5/6 - UDF for Command Execution"|7856.txt
+other||8303|2009-03-29|"Jon Oberheide"|||"pam-krb5 < 3.13 - Local Privilege Escalation"|8303.c
+kernel||8369|2009-04-08|gat3way|2.6.29||"Linux Kernel < 2.6.29 - 'exit_notify()' Local Privilege Escalation"|8369.sh
+other||8470|2009-04-17|"Michael Brooks"|||"cTorrent/DTorrent - '.torrent' Local Buffer Overflow"|8470.py
+kernel||8478|2009-04-20|kingcope|1.4.1||"Linux Kernel 2.6 (Debian 4.0 / Ubuntu / Gentoo) UDEV < 1.4.1 - Local Privilege Escalation (1)"|8478.sh
+other||8534|2009-04-27|"Jon Oberheide"|||"libvirt_proxy 0.5.1 - Local Privilege Escalation"|8534.c
+kernel||8572|2009-04-30|"Jon Oberheide"|1.4.1||"Linux Kernel 2.6 (Gentoo / Ubuntu 8.10/9.04) UDEV < 1.4.1 - Local Privilege Escalation (2)"|8572.c
+kernel||8673|2009-05-13|s0m3b0dy|2.6.29||"Linux Kernel 2.6.x (Gentoo 2.6.29rc1) - 'ptrace_attach' Local Privilege Escalation"|8673.c
+kernel||8678|2009-05-14|prdelka|2.6.29||"Linux Kernel 2.6.29 - 'ptrace_attach()' Race Condition Privilege Escalation"|8678.c
+other||9135|2009-07-13|nofame|||"Openswan 2.4.12/2.6.16 - Insecure Temp File Creation Privilege Escalation"|9135.sh
+kernel||9191|2009-07-17|spender|2.6.30||"Linux Kernel 2.6.30 < 2.6.30.1 / SELinux (RHEL 5) - Local Privilege Escalation"|9191.txt
+other||9207|2009-07-20|anonymous|||"PulseAudio setuid - Local Privilege Escalation"|9207.sh
+other||9208|2009-07-20|anonymous|||"PulseAudio setuid (Ubuntu 9.04 / Slackware 12.2.0) - Local Privilege Escalation"|9208.txt
+other||9302|2009-07-30|His0k4|||"Compface 1.1.5 - '.xbm' Local Buffer Overflow"|9302.py
+other||9352|2009-08-04|"Jon Oberheide"|||"Linux Kernel 2.6.31-rc5 - sigaltstack 4-Byte Stack Disclosure"|9352.c
+other||9363|2009-08-05|"Jon Oberheide"|||"Linux Kernel < 2.6.14.6 - 'procfs' Kernel Memory Disclosure"|9363.c
+kernel||9435|2009-08-14|spender|||"Linux Kernel 2.x (RedHat) - 'sock_sendpage()' Ring0 Privilege Escalation (1)"|9435.txt
+kernel||9436|2009-08-14|"Przemyslaw Frasunek"|||"Linux Kernel 2.x - 'sock_sendpage()' Local Privilege Escalation (4)"|9436.txt
+kernel||9479|2009-08-24|"INetCop Security"|||"Linux Kernel 2.4/2.6 (RedHat Linux 9 / Fedora Core 4 < 11 / Whitebox 4 / CentOS 4) - 'sock_sendpage()' Ring0 Privilege Escalation (5)"|9479.c
+other||9513|2009-08-25|"Jon Oberheide"|||"Linux Kernel 2.6.31-rc7 - 'AF_LLC getsockname' 5-Byte Stack Disclosure"|9513.c
+other||9521|2009-08-26|"Clément Lecigne"|||"Linux Kernel 2.6.30 - 'atalk_getname()' 8-bytes Stack Disclosure (1)"|9521.c
+other||9543|2009-08-31|"Jon Oberheide"|||"Linux Kernel < 2.6.31-rc7 - 'AF_IRDA' 29-Byte Stack Disclosure (2)"|9543.c
+kernel||9545|2009-08-31|"Ramon de C Valle"|||"Linux Kernel 2.4.x/2.6.x (CentOS 4.8/5.3 / RHEL 4.8/5.3 / SuSE 10 SP2/11 / Ubuntu 8.10) (PPC) - 'sock_sendpage()' Local Privilege Escalation"|9545.c
+kernel||9574|2009-09-02|spender|2.6.19||"Linux Kernel < 2.6.19 (x86/x64) - 'udp_sendmsg' Local Privilege Escalation (2)"|9574.txt
+kernel||9575|2009-09-02|Andi|2.6.19||"Linux Kernel < 2.6.19 (Debian 4) - 'udp_sendmsg' Local Privilege Escalation (3)"|9575.c
+other||9595|2009-09-09|"Pankaj Kohli"|||"HTMLDOC 1.8.27 - '.html' File Handling Stack Buffer Overflow"|9595.c
+kernel||9598|2009-09-09|"Ramon de C Valle"|||"Linux Kernel 2.4/2.6 (Fedora 11) - 'sock_sendpage()' Local Privilege Escalation (2)"|9598.txt
+other||9608|2009-09-09|"Jeremy Brown"|||"GemStone/S 6.3.1 - 'stoned' Local Buffer Overflow"|9608.c
+other||9627|2009-09-10|spender|||"Enlightenment - Linux Null PTR Dereference Framework"|9627.txt
+kernel||9641|2009-09-11|"Ramon de C Valle"|||"Linux Kernel 2.4/2.6 - 'sock_sendpage()' Local Privilege Escalation (3)"|9641.txt
+other||9709|2009-09-17|Rick|||"Changetrack 4.3-3 - Local Privilege Escalation"|9709.txt
+kernel||9844|2009-11-05|"Matthew Bergin"|2.4.1||"Linux Kernel 2.4.1 < 2.4.37 / 2.6.1 < 2.6.32-rc5 - 'pipe.c' Local Privilege Escalation (3)"|9844.py
+kernel||10018|2009-11-12|"Earl Chew"|2.6.32||"Linux Kernel 2.6.32 - 'pipe.c' Local Privilege Escalation (4)"|10018.sh
+other||10038|2009-10-23|"Pavel Machek"|||"proc File - Descriptors Directory Permissions Bypass"|10038.txt
+other||10060|2009-10-06|"Jeremy Brown"|||"Geany .18 - Local File Overwrite"|10060.sh
+other||10313|2008-02-25|dummy|||"Libmodplug - 's3m' Buffer Overflow"|10313.c
+other||10396|2009-12-12|"Jeremy Brown"|||"Mozilla Codesighs - Memory Corruption"|10396.pl
+other||10487|2009-12-16|"Dominick LaTrappe"|||"VideoCache 1.9.2 - 'vccleaner' Local Privilege Escalation"|10487.txt
+kernel||10613|2009-12-23|DigitALL|2.6.18||"Linux Kernel 2.6.18 < 2.6.18-20 - Local Privilege Escalation"|10613.c
+kernel||12130|2010-04-09|"Jon Oberheide"|2.6.34||"ReiserFS (Linux Kernel 2.6.34-rc3 / RedHat / Ubuntu 9.10) - 'xattr' Local Privilege Escalation"|12130.py
+kernel||14273|2010-07-08|"Kristian Erik Hermansen"|1.1.0||"Linux PAM 1.1.0 (Ubuntu 9.10/10.04) - MOTD File Tampering Privilege Escalation (1)"|14273.sh
+kernel||14339|2010-07-12|anonymous|1.1.0||"Linux PAM 1.1.0 (Ubuntu 9.10/10.04) - MOTD File Tampering Privilege Escalation (2)"|14339.sh
+kernel||14814|2010-08-27|"Jon Oberheide"|2.6.36||"Linux Kernel < 2.6.36-rc1 (Ubuntu 10.04 / 2.6.32) - 'CAN BCM' Local Privilege Escalation"|14814.c
+other||14830|2010-08-29|"Aaron Conole"|||"Nginx 0.6.38 - Heap Corruption"|14830.py
+other||15074|2010-09-21|fuzz|||"mountall 2.15.2 (Ubuntu 10.04/10.10) - Local Privilege Escalation"|15074.sh
+other||15150|2010-09-29|"Jon Oberheide"|||"Linux Kernel < 2.6.36-rc6 (RedHat / Ubuntu 10.04) - 'pktcdvd' Kernel Memory Disclosure"|15150.c
+other||15155|2010-09-29|"Red Hat"|||"XFS - Deleted Inode Local Information Disclosure"|15155.c
+other||15274|2010-10-18|"Tavis Ormandy"|||"GNU C library dynamic linker - '$ORIGIN' Expansion"|15274.txt
+kernel||15285|2010-10-19|"Dan Rosenberg"|2.6.36||"Linux Kernel 2.6.36-rc8 - 'RDS Protocol' Local Privilege Escalation"|15285.c
+other||15304|2010-10-22|"Tavis Ormandy"|||"GNU C Library 2.x (libc6) - Dynamic Linker LD_AUDIT Arbitrary DSO Load Privilege Escalation"|15304.txt
+other||15344|2010-10-28|"Kees Cook"|||"Linux Kernel 2.6.36 - VIDIOCSMICROCODE IOCTL Local Memory Overwrite"|15344.c
+other||15481|2010-11-10|"Dan Rosenberg"|||"Linux Kernel 2.4.0 - Stack Infoleaks"|15481.c
+other||15620|2010-11-26|"Tavis Ormandy"|||"SystemTap - Local Privilege Escalation"|15620.sh
+kernel||15704|2010-12-07|"Dan Rosenberg"|2.6.37||"Linux Kernel 2.6.37 (RedHat / Ubuntu 10.04) - 'Full-Nelson.c' Local Privilege Escalation"|15704.c
+other||15745|2010-12-15|"Kryptos Logic"|||"IBM Tivoli Storage Manager (TSM) - Local Privilege Escalation"|15745.txt
+kernel||15774|2010-12-18|"Jon Oberheide"|2.6.37||"Linux Kernel < 2.6.37-rc2 - 'ACPI custom_method' Local Privilege Escalation"|15774.c
+kernel||15944|2011-01-08|"Joe Sylve"|2.6.34||"Linux Kernel < 2.6.34 (Ubuntu 10.10 x86/x64) - 'CAP_SYS_ADMIN' Local Privilege Escalation (2)"|15944.c
+other||16086|2011-01-31|"Tim Brown"|||"OpenVAS Manager - Command Injection"|16086.txt
+other||17083|2011-03-30|ZadYree|||"HT Editor 2.0.18 - File Opening Stack Overflow"|17083.pl
+other||17147|2011-04-11|ph0x90bic|||"tmux 1.3/1.4 - '-S' Option Incorrect SetGID Privilege Escalation"|17147.txt
+kernel||17391|2011-06-11|"Dan Rosenberg"|2.6.28||"Linux Kernel 2.6.28/3.0 (DEC Alpha Linux) - Local Privilege Escalation"|17391.c
+other||17611|2011-08-05|ZadYree|||"Unrar 3.9.3 - Local Stack Overflow"|17611.pl
+kernel||17787|2011-09-05|"Jon Oberheide"|2.6.36||"Linux Kernel < 2.6.36.2 (Ubuntu 10.04) - 'Half-Nelson.c' Econet Privilege Escalation"|17787.c
+other||17932|2011-10-05|zx2c4|||"PolicyKit polkit-1 < 0.101 - Local Privilege Escalation"|17932.c
+other||17942|2011-10-08|xi4oyu|||"pkexec - Race Condition Privilege Escalation"|17942.c
+other||18040|2011-10-28|vladz|||"X.Org xorg 1.4 < 1.11.2 - File Permission Change"|18040.c
+other||18064|2011-11-02|zx2c4|||"Calibre E-Book Reader - Local Privilege Escalation (1)"|18064.sh
+other||18071|2011-11-03|zx2c4|||"Calibre E-Book Reader - Local Privilege Escalation (2)"|18071.sh
+other||18072|2011-11-03|zx2c4|||"Calibre E-Book Reader - Race Condition Privilege Escalation"|18072.sh
+other||18080|2011-11-04|"Todor Donev"|||"Linux Kernel 2.6.37-rc1 - 'serial_multiport_struct' Local Information Leak"|18080.c
+other||18086|2011-11-05|zx2c4|||"Calibre E-Book Reader - Local Privilege Escalation (3)"|18086.c
+other||18105|2011-11-10|zx2c4|||"glibc - 'LD_AUDIT' Arbitrary DSO Load Privilege Escalation"|18105.sh
+other||18147|2011-11-23|vladz|||"bzexe (bzip2) - Race Condition"|18147.c
+other||18228|2011-12-10|otr|||"Acpid 1:2.0.10-1ubuntu2 (Ubuntu 11.04/11.10) - Boundary Crossing Privilege Escalation"|18228.sh
+kernel||18411|2012-01-23|zx2c4|2.6.39||"Linux Kernel 2.6.39 < 3.2.2 (Gentoo / Ubuntu x86/x64) - 'Mempodipper' Local Privilege Escalation (1)"|18411.c
+other||18733|2012-04-12|anonymous|||"WICD 1.7.1 - Local Privilege Escalation"|18733.py
+other||18783|2012-04-25|Sha0|||"mount.cifs - 'chdir()' Arbitrary Root File Identification"|18783.txt
+other||18785|2012-04-26|"Nicolas Krassas"|||"Parallels PLESK 9.x - Insecure Permissions"|18785.txt
+other||18917|2012-05-24|"Peter Ellehauge"|||"Apache Mod_Auth_OpenID - Session Stealing"|18917.txt
+other||19070|1998-04-06|neonhaze|||"Slackware Linux 3.4 - 'liloconfig-color' Temporary File"|19070.txt
+other||19071|1998-04-06|neonhaze|||"Slackware Linux 3.4 - 'makebootdisk' Temporary File"|19071.txt
+other||19072|1998-04-10|"Joe H"|||"ISC BIND 4.9.7 -T1B - named SIGINT / SIGIOT Symlink"|19072.txt
+other||19073|1998-04-06|neonhaze|||"Slackware Linux 3.4 - 'netconfig' Temporary File"|19073.txt
+other||19074|1998-04-06|neonhaze|||"Slackware Linux 3.4 - 'pkgtool' Temporary File"|19074.txt
+other||19077|1998-05-05|jamez|||"Fred N. van Kempen dip 3.3.7 - Local Buffer Overflow (1)"|19077.c
+other||19078|1998-05-05|pr10n|||"Fred N. van Kempen dip 3.3.7 - Local Buffer Overflow (2)"|19078.c
+other||19080|1998-04-28|"Thomas Roessler"|||"Debian suidmanager 0.18 - Command Execution"|19080.txt
+other||19095|1999-04-20|Shadow|||"GNU GNU bash 1.14 - Path Embedded Code Execution"|19095.txt
+other||19106|1996-07-03|"Jeff Uphoff"|||"BSDI BSD/OS 2.1 / FreeBSD 2.1 / IBM AIX 4.2 / SGI IRIX 6.4 / Sun SunOS 4.1.3 - Buffer Overrun"|19106.c
+kernel||19122|1998-07-13|"Richard Thomas"|||"Slackware Linux 3.5 - '/etc/group' Local Privilege Escalation"|19122.txt
+other||19125|1999-04-29|"Dan Sugalski"|||"Oracle 8 - oratclsh Suid"|19125.txt
+other||19142|1999-05-06|"Kevin Wenchel"|||"Oracle 8 - File Access"|19142.sh
+other||19146|1999-01-03|"Dr. Mudge"|||"DataLynx suGuard 1.0 - Local Privilege Escalation"|19146.sh
+other||19240|1999-06-09|"Brian Mitchell"|||"Caldera kdenetwork 1.1.1-1 / Caldera OpenLinux 1.3/2.2 / KDE KDE 1.1/1.1. / RedHat Linux 6.0 - K-Mail File Creation"|19240.c
+other||19243|1999-06-02|"Thomas Fischbacher"|||"G. Wilford man 2.3.10 - Symlink"|19243.txt
+other||19249|1999-03-02|Arthur|||"Xcmail 0.99.6 - Local Buffer Overflow"|19249.c
+kernel||19254|1999-03-04|xnec|||"S.u.S.E Linux 5.2 - 'gnuplot' Local Overflow / Local Privilege Escalation"|19254.c
+other||19255|1999-06-09|"Tani Hosokawa"|||"RedHat Linux 5.2 i386/6.0 - No Logging"|19255.txt
+other||19256|1999-01-03|anonymous|||"Stanford University bootpd 2.4.3 / Debian 2.0 - netstd"|19256.c
+other||19257|1999-03-21|Stealthf0rk|||"X11R6 3.3.3 - Symlink"|19257.c
+kernel||19259|1999-02-03|xnec|||"S.u.S.E Linux 5.2 - 'lpc' Local Privilege Escalation"|19259.c
+other||19270|1999-02-25|c0nd0r|||"Debian 2.0 - Super Syslog Buffer Overflow"|19270.c
+kernel||19279|1996-02-02|"David J Meltzer"|||"RedHat Linux 2.1 - 'abuse.console' Local Privilege Escalation"|19279.sh
+other||19281|1999-05-28|"Chris Evans"|||"RedHat Linux 5.1 - xosview"|19281.c
+other||19283|1997-03-04|Solar|||"Slackware Linux 3.1 - '/usr/X11/bin/SuperProbe' Local Buffer Overflow"|19283.c
+other||19284|1998-01-20|satan|||"Armidale Software Yapp Conferencing System 2.2 - Local Buffer Overflow"|19284.c
+other||19285|1997-05-27|zgv|||"Slackware Linux 3.1/3.2 - 'color_xterm' Local Buffer Overflow (1)"|19285.txt
+other||19286|1997-05-27|"Solar Designer"|||"Slackware Linux 3.1/3.2 - 'color_xterm' Local Buffer Overflow (2)"|19286.c
+other||19302|1998-01-19|Solar|||"Linux libc 5.3.12 (RedHat Linux 4.0 / Slackware Linux 3.1) - libc NLSPATH"|19302.c
+kernel||19305|1998-01-19|"Cesar Tascon Alvarez"|||"RedHat Linux 5.0 - 'msgchk' Local Privilege Escalation"|19305.c
+other||19311|1998-06-20|"Alvaro Martinez Echevarria"|||"RedHat Linux 4.2 / SGI IRIX 6.3 / Solaris 2.6 - 'mailx' (1)"|19311.c
+other||19312|1998-06-25|segv|||"RedHat Linux 4.2 / SGI IRIX 6.3 / Solaris 2.6 - 'mailx' (2)"|19312.c
+other||19314|1999-02-26|"Michal Zalewski"|||"RedHat Linux 5.0/5.1/5.2 / Slackware Linux 3.5 - 'klogd' Local Buffer Overflow (1)"|19314.c
+other||19315|1999-02-26|"Esa Etelavuori"|||"RedHat Linux 5.0/5.1/5.2 / Slackware Linux 3.5 - 'klogd' Local Buffer Overflow (2)"|19315.c
+other||19360|1997-12-21|"Solar Designer"|||"Linux libc 5.3.12/5.4 (RedHat Linux 4.0) - 'vsyslog()' Local Buffer Overflow"|19360.c
+other||19370|1999-06-25|KSR[T]|||"Xi Graphics Accelerated X 4.0.x/5.0 - Local Buffer Overflow"|19370.c
+other||19371|1999-06-25|funkysh|||"VMware 1.0.1 - Local Buffer Overflow"|19371.c
+other||19373|1999-02-17|c0nd0r|||"Debian 2.0/2.0 r5 / FreeBSD 3.2 / OpenBSD 2.4 / RedHat 5.2 i386 / S.u.S.E 6.1 - 'Lsof' Local Buffer Overflow (1)"|19373.c
+other||19374|1999-02-17|Zhodiac|||"Debian 2.0/2.0 r5 / FreeBSD 3.2 / OpenBSD 2.4 / RedHat 5.2 i386 / S.u.S.E 6.1 - 'Lsof' Local Buffer Overflow (2)"|19374.c
+other||19384|1999-07-02|"Chris Leishman"|||"Debian 2.1 - Print Queue Control"|19384.c
+kernel||19419|1999-07-13|Solar|2.0.37||"Linux Kernel 2.0.37 - Segment Limit Privilege Escalation"|19419.c
+other||19422|1999-07-14|"Andrew Alness"|||"BMC Software Patrol 3.2.5 - Patrol SNMP Agent File Creation/Permission"|19422.txt
+other||19428|1999-07-21|"Gerald Britton"|||"Samba < 2.0.5 - Local Overflow"|19428.c
+other||19429|1999-05-02|Mudge|||"Rational Software ClearCase for Unix 3.2 - ClearCase SUID"|19429.sh
+other||19464|1999-08-18|m0f0|||"RedHat Linux 6.0 / Slackware Linux 4.0 - Termcap 'tgetent()' Local Buffer Overflow (1)"|19464.c
+other||19465|1999-08-18|sk8|||"RedHat Linux 6.0 / Slackware Linux 4.0 - Termcap 'tgetent()' Local Buffer Overflow (2)"|19465.c
+other||19467|1999-08-23|"Michal Zalewski"|||"GNU glibc 2.1/2.1.1 -6 - 'pt_chown' Local Privilege Escalation"|19467.c
+other||19469|1999-08-30|Akke|||"RedHat Linux 4.2/5.2/6.0 / S.u.S.E Linux 6.0/6.1 - Cron Buffer Overflow (1)"|19469.c
+other||19470|1999-08-25|jbowie|||"RedHat Linux 4.2/5.2/6.0 / S.u.S.E Linux 6.0/6.1 - Cron Buffer Overflow (2)"|19470.c
+other||19474|1999-08-25|"Olaf Kirch"|||"Caldera OpenLinux 2.2 / Debian 2.1/2.2 / RedHat 6.0 - Vixie Cron MAILTO Sendmail"|19474.txt
+other||19485|1999-08-31|"Przemyslaw Frasunek"|||"Martin Stover Mars NWE 0.99 - Local Buffer Overflow"|19485.c
+other||19499|1999-09-09|"Brock Tellier"|||"SCO Open Server 5.0.5 - X Library Buffer Overflow (1)"|19499.c
+other||19500|1999-06-21|"The Dark Raver of CPNE"|||"SCO Open Server 5.0.5 - X Library Buffer Overflow (2)"|19500.c
+other||19501|1999-09-13|"Job de Haas of ITSX"|||"DIGITAL UNIX 4.0 d/f / AIX 4.3.2 / CDE 2.1 / IRIX 6.5.14 / Solaris 7.0 / SunOS 4.1.4 - Local Buffer Overflow"|19501.c
+other||19508|1999-09-23|"Brock Tellier"|||"SuSE Linux 6.2 sscw - HOME Environment Variable Buffer Overflow"|19508.sh
+other||19510|1999-09-17|"Tymm Twillman"|||"SSH Communications Security SSH 1.2.27 - Authentication Socket File Creation"|19510.pl
+other||19511|1999-09-26|"Brock Tellier"|||"Knox Arkeia 4.0 Backup - Local Overflow"|19511.c
+other||19512|1999-09-26|"Brock Tellier"|||"Mandriva Linux Mandrake 6.0 / Gnome Libs 1.0.8 - 'espeaker' Local Buffer Overflow"|19512.sh
+other||19517|2012-07-01|"Daniel Godoy"|||"Emesene 2.12.5 - Password Disclosure"|19517.pl
+other||19523|2012-07-02|ShadowHatesYou|||"python-wrapper - Untrusted Search Path/Code Execution"|19523.txt
+other||19544|1996-10-25|"Vadim Kolontsov"|||"BSD/OS 2.1 / FreeBSD 2.1.5 / NeXTstep 4.x / IRIX 6.4 / SunOS 4.1.3/4.1.4 - 'lpr' Buffer Overrun (1)"|19544.c
+kernel||19565|1999-10-22|"Brock Tellier"|||"SuSE Linux 6.1/6.2 - 'cwdtools' Local Overflow / Local Privilege Escalation"|19565.sh
+other||19602|1999-11-05|"Michal Zalewski"|||"Eric Allman Sendmail 8.8.x - Socket Hijack"|19602.c
+other||19655|1999-12-14|"Alberto Solino"|||"RSA Security RSAREF 2.0 - Local Buffer Overflow"|19655.txt
+other||19676|2000-05-17|"Brock Tellier"|||"xsoldier (FreeBSD 3.3/Linux Mandrake 7.0) - Local Buffer Overflow (1)"|19676.c
+other||19677|2000-05-17|"Larry W. Cashdollar"|||"xsoldier (FreeBSD 3.3/Linux Mandrake 7.0) - Local Buffer Overflow (2)"|19677.c
+other||19693|2012-07-09|rogueclown|||"Python - Untrusted Search Path/Code Execution"|19693.txt
+other||19698|1999-12-28|"Brock Tellier"|||"Great Circle Associates Majordomo 1.94.4 - Local resend"|19698.txt
+other||19699|1999-12-29|Shevek|||"Majordomo 1.94.4/1.94.5 - Local -C Parameter (1)"|19699.txt
+other||19700|1999-12-29|morpheus[bd]|||"Majordomo 1.94.4/1.94.5 - Local -C Parameter (2)"|19700.c
+other||19709|2000-01-04|dildog|||"Mandrake 6.x / RedHat 6.x / Turbolinux 3.5 b2/4.x/6.0.2 userhelper/PAM - Path (1)"|19709.sh
+other||19710|2000-03-15|"Elias Levy"|||"Mandrake 6.x / RedHat 6.x / Turbolinux 3.5 b2/4.x/6.0.2 userhelper/PAM - Path (2)"|19710.c
+other||19723|2000-01-12|"Cesar Tascon Alvarez"|||"Corel Linux OS 1.0 - get_it PATH"|19723.txt
+other||19727|2000-01-21|K2|||"Inter7 vpopmail (vchkpw) 3.4.11 - Local Buffer Overflow"|19727.c
+other||19735|2000-02-01|anonymous|||"Debian 2.1 - apcd Symlink"|19735.txt
+other||19762|2000-02-25|"Nelson Brito"|||"FTPx FTP Explorer 1.0.00.10 - Weak Password Encryption"|19762.c
+other||19763|2000-02-23|"Darren Reed"|||"RedHat Linux 6.0 - Single User Mode Authentication"|19763.txt
+other||19764|2000-02-24|suid|||"Corel Linux OS 1.0 - buildxconfig"|19764.txt
+kernel||19765|2000-02-24|suid|||"Corel Linux OS 1.0 - 'setxconf' Local Privilege Escalation"|19765.txt
+other||19778|2000-02-26|"Babcia Padlina"|||"RedHat 4.x/5.x/6.x / RedHat man 1.5 / Turbolinux man 1.5 / Turbolinux 3.5/4.x - 'man' Buffer Overrun (1)"|19778.c
+other||19779|2000-02-26|"Babcia Padlina"|||"RedHat 4.x/5.x/6.x / RedHat man 1.5 / Turbolinux man 1.5 / Turbolinux 3.5/4.x - 'man' Buffer Overrun (2)"|19779.c
+other||19787|2000-03-02|suid|||"Corel Linux OS 1.0 - Dosemu Distribution Configuration"|19787.txt
+kernel||19794|2000-03-05|"Keyser Soze"|8.1.5||"Oracle8i Standard Edition 8.1.5 for Linux Installer - Local Privilege Escalation"|19794.txt
+other||19802|2000-03-11|Krahmer|||"Sam Hawker wmcdplay 1.0 beta1-2 - Local Buffer Overflow (1)"|19802.c
+other||19803|2000-03-13|"Larry W. Cashdolla"|||"Sam Hawker wmcdplay 1.0 beta1-2 - Local Buffer Overflow (2)"|19803.txt
+other||19804|2000-03-11|"S. Krahmer"|||"AT Computing atsar_linux 1.4 - File Manipulation"|19804.pl
+other||19811|2000-03-13|funkysh|||"Halloween Linux 4.0 / RedHat Linux 6.1/6.2 - 'imwheel' (1)"|19811.c
+other||19812|2000-03-13|"S. Krahmer & Stealth"|||"Halloween Linux 4.0 / RedHat Linux 6.1/6.2 - 'imwheel' (2)"|19812.c
+kernel||19813|2000-03-16|Sebastian|||"Halloween Linux 4.0 / SuSE Linux 6.0/6.1/6.2/6.3 - 'kreatecd' Local Privilege Escalation"|19813.txt
+other||19816|2000-03-22|"Egmont Koblinger"|||"gpm 1.18.1/1.19 / Debian 2.x / RedHat 6.x / S.u.S.E 5.3/6.x - gpm Setgid"|19816.txt
+other||19837|2000-04-10|"Andrey E. Lerman"|||"Bray Systems Linux Trustees 1.5 - Long Pathname"|19837.c
+other||19838|2000-04-10|kingpin|||"CRYPTOCard CRYPTOAdmin 4.1 - Weak Encryption (1)"|19838.c
+other||19867|2000-04-21|Peter_M|||"SuSE Linux 6.x - Arbitrary File Deletion"|19867.txt
+other||19883|2000-04-29|bladi|||"SuSE Linux 6.3/6.4 Gnomelib - Local Buffer Overflow"|19883.c
+other||19900|2000-05-03|"Michal Zalewski"|||"RedHat Linux 6.0/6.1/6.2 - 'pam_console' Monitor Activity After Logout"|19900.c
+other||19915|2000-05-16|Sebastian|||"KDE 1.1/1.1.1/1.2/2.0 kscd - SHELL Environmental Variable"|19915.txt
+other||19925|2000-05-26|"Jim Paris"|||"Cygnus Network Security 4.0/KerbNet 5.0 / MIT Kerberos 4/5 / RedHat 6.2 - Compatibility 'krb_rd_req()' Local Buffer Overflow (2)"|19925.c
+kernel||19933|2012-07-19|Metasploit|2.4.4||"Linux Kernel 2.4.4 < 2.4.37.4 / 2.6.0 < 2.6.30.4 - 'Sendpage' Local Privilege Escalation (Metasploit)"|19933.rb
+other||19946|2000-04-21|anonymous|||"OpenLDAP 1.2.7/1.2.8/1.2.9/1.2.10 - '/usr/tmp/' Symlink"|19946.txt
+other||19952|2000-05-22|"Paulo Ribeiro"|||"S.u.S.E Linux 4.x/5.x/6.x/7.0 / Slackware 3.x/4.0 / Turbolinux 6 / OpenLinux 7.0 - 'fdmount' Local Buffer Overflow (1)"|19952.c
+other||19953|2000-05-22|Scrippie|||"S.u.S.E Linux 4.x/5.x/6.x/7.0 / Slackware 3.x/4.0 / Turbolinux 6 / OpenLinux 7.0 - 'fdmount' Local Buffer Overflow (2)"|19953.c
+other||19954|2000-05-22|WaR|||"S.u.S.E Linux 4.x/5.x/6.x/7.0 / Slackware 3.x/4.0 / Turbolinux 6 / OpenLinux 7.0 - 'fdmount' Local Buffer Overflow (3)"|19954.c
+other||19955|2000-05-24|Prizm|||"Cobalt RaQ 2.0/3.0 / qpopper 2.52/2.53 - 'EUIDL' Format String Input"|19955.c
+other||19969|2000-05-29|noir|||"Mandriva Linux Mandrake 7.0 - Local Buffer Overflow"|19969.c
+other||19970|2000-05-27|noir|||"KDE 1.1/1.1.1/1.1.2/1.2 - kdesud DISPLAY Environment Variable Overflow"|19970.c
+service||19979|2000-05-31|kil3r|||"KDE 1.1.2 KApplication configfile - Local Privilege Escalation (1)"|19979.pl
+service||19980|2000-05-31|kil3r|||"KDE 1.1.2 KApplication configfile - Local Privilege Escalation (2)"|19980.pl
+service||19981|2000-05-31|IhaQueR|||"KDE 1.1.2 KApplication configfile - Local Privilege Escalation (3)"|19981.sh
+other||19991|2000-06-02|"Paulo Ribeiro"|||"BSD 'mailx' 8.1.1-10 - Local Buffer Overflow (1)"|19991.c
+other||19992|1999-07-03|funkysh|||"mailx 8.1.1-10 (BSD/Slackware) - Local Buffer Overflow (2)"|19992.c
+other||20004|2000-06-07|"Stan Bubrouski"|||"Stelian Pop dump 0.4 - restore Buffer Overflow"|20004.c
+other||20013|2000-06-01|Syzop|||"Sam Lantinga splitvt 1.6.3 - Local Buffer Overflow"|20013.c
+other||20021|2000-06-09|arkth|||"RedHat 6.2 - Piranha Virtual Server Package Plaintext Password"|20021.txt
+other||20024|2000-08-01|E-Ligth|||"Mandrake 7.0/7.1 / RedHat Kon2 0.3.9 - '/usr/bin/fld' Input File Overflow"|20024.c
+other||20045|2000-06-19|"Chris Evans"|||"X 11.0/3.3.3/3.3.4/3.3.5/3.3.6/4.0 - libX11 '_XAsyncReply()' Stack Corruption"|20045.c
+other||20093|2000-06-22|V9|||"Stanley T. Shebs Xconq 7.2.2 - xconq Buffer Overflow"|20093.c
+other||20141|2000-08-07|"Sebastian Krahmer"|||"SUIDPerl 5.00503 - Mail Shell Escape (1)"|20141.pl
+other||20142|2000-08-07|"Michal Zalewski"|||"SUIDPerl 5.00503 - Mail Shell Escape (2)"|20142.sh
+other||20155|2000-08-10|Narrow|||"Multisoft FlagShip 4.4 - Installation Permission"|20155.txt
+other||20160|2000-08-19|"Michal Zalewski"|||"Minicom 1.82/1.83 - Capture-file Group Ownership"|20160.txt
+other||20185|2000-09-06|warning3|||"RedHat 6 GLIBC/locale - Subsystem Format String"|20185.c
+kernel||20201|2012-08-02|anonymous|||"Nvidia Linux Driver - Local Privilege Escalation"|20201.c
+other||20250|2000-09-28|Dvorak|||"LBL Traceroute 1.4 a5 - Heap Corruption (1)"|20250.c
+other||20251|2000-09-28|"Perry Harrington"|||"LBL Traceroute 1.4 a5 - Heap Corruption (2)"|20251.c
+other||20252|2000-09-28|"Michel Kaempf"|||"LBL Traceroute 1.4 a5 - Heap Corruption (3)"|20252.c
+other||20285|2000-10-06|X-Force|||"RedHat 6.2/7.0 Tmpwatch - Arbitrary Command Execution"|20285.c
+other||20291|1995-12-26|"David J Meltzer"|||"Elm 2.4 - 'filter' Arbitrary Mail Disclosure"|20291.sh
+other||20312|2000-10-18|"Juan Manuel Pascual EscribÃ¡"|||"Oracle Internet Directory 2.0.6 - oidldap"|20312.c
+other||20316|2000-10-20|"zenith parsec"|||"BSD 'lpr' 0.54 -4 - Arbitrary Command Execution"|20316.txt
+other||20338|2000-11-01|Optyx|||"Samba 2.0.7 - SWAT Symlink (1)"|20338.c
+other||20339|2000-11-01|Optyx|||"Samba 2.0.7 - SWAT Symlink (2)"|20339.sh
+other||20341|2000-11-01|miah|||"Samba 2.0.7 - SWAT Logfile Permissions"|20341.sh
+other||20378|2004-12-12|"Kevin Finisterre"|||"Debian top - Format String"|20378.pl
+other||20385|2000-11-04|fish|||"RedHat 0.4 b15 restore - Insecure Environment Variables"|20385.sh
+other||20402|2000-11-12|"Michal Zalewski"|||"Linux modutils 2.3.9 - 'modprobe' Arbitrary Command Execution"|20402.sh
+other||20411|2000-11-20|anonymous|||"Oracle 8.x - cmctl Buffer Overflow"|20411.c
+other||20458|2000-11-30|"Lamagra Argamal"|||"Linux Kernel 2.2.x - Non-Readable File Ptrace Local Information Leak"|20458.txt
+other||20493|2000-12-11|mat|||"University of Washington Pico 3.x/4.x - File Overwrite"|20493.sh
+other||20517|2000-12-19|V9|||"Itetris 1.6.1/1.6.2 - Privileged Arbitrary Command Execution"|20517.c
+other||20554|2001-01-13|IhaQueR|||"SuSE 6.x/7.0 - MkDir Error Handling rctab Race Condition (1)"|20554.sh
+other||20555|2001-01-13|IhaQueR|||"SuSE 6.x/7.0 - MkDir Error Handling rctab Race Condition (2)"|20555.sh
+other||20556|2001-01-16|"Michel Kaempf"|||"Debian 2.2 - splitvt Format String"|20556.c
+other||20581|2001-01-18|"Luis Miguel Silva"|||"Mysql 3.22.x/3.23.x - Local Buffer Overflow"|20581.c
+other||20604|2001-01-31|IhaQueR|||"Debian 2.2 / Su.S.E 6.3/6.4/7.0 - man '-l' Format String"|20604.sh
+other||20626|2001-02-09|"Chris Evans"|||"Linux Kernel 2.2.x - 'sysctl()' Memory Reading"|20626.c
+other||20645|2001-02-13|_kiss_|||"Elm 2.5.3 - Alternative-Folder Buffer Overflow"|20645.c
+other||20691|2001-03-13|"Frank DENIS"|||"FTPFS 0.1.1/0.2.1/0.2.2 - mount Buffer Overflow"|20691.txt
+kernel||20720|2001-03-27|"Wojciech Purczynski"|2.2.18||"Linux Kernel 2.2.18 (RedHat 6.2/7.0 / 2.2.14/2.2.18/2.2.18ow4) - ptrace/execve Race Condition Privilege Escalation (1)"|20720.c
+kernel||20721|2001-03-27|"Wojciech Purczynski"|2.2.18||"Linux Kernel 2.2.18 (RedHat 6.2/7.0 / 2.2.14/2.2.18/2.2.18ow4) - ptrace/execve Race Condition Privilege Escalation (2)"|20721.c
+other||20776|2001-04-17|"Gabriel Maggiotti"|||"Samba 2.0.x - Insecure TMP File Symbolic Link"|20776.c
+other||20777|2001-04-18|"Enrique A."|||"ISC INN 2.x - Command-Line Buffer Overflow (1)"|20777.c
+other||20778|2001-04-18|"Enrique A."|||"ISC INN 2.x - Command-Line Buffer Overflow (2)"|20778.sh
+other||20781|2001-04-18|"Paul Starzetz"|||"SuSE 7.0 - KFM Insecure '.TMP' File Creation"|20781.txt
+other||20795|2001-04-24|psheep|||"Sendfile 1.x/2.1 - Local Privileged Arbitrary Command Execution"|20795.sh
+other||20798|2001-04-24|"Cade Cairns"|||"Sendfile 1.x/2.1 - Forced Privilege Lowering Failure"|20798.sh
+other||20822|2001-05-07|"Sebastian Krahmer"|||"Vixie Cron crontab 3.0 - Privilege Lowering Failure (1)"|20822.sh
+other||20823|2001-07-05|cairnsc|||"Vixie Cron crontab 3.0 - Privilege Lowering Failure (2)"|20823.sh
+other||20843|2001-05-13|"zenith parsec"|||"Immunix OS 6.2/7.0 / RedHat 5.2/6.2/7.0 / SuSE Linux 6.x/7.0/7.1 - 'Man -S' Heap Overflow"|20843.txt
+other||20867|2001-05-18|"Jonas Eriksson"|||"ARCservIT 6.61/6.63 Client - asagent.tmp Arbitrary File Overwrite"|20867.txt
+other||20868|2001-05-18|"Jonas Eriksson"|||"ARCservIT 6.61/6.63 Client - inetd.tmp Arbitrary File Overwrite"|20868.txt
+other||20897|2001-06-01|jenggo|||"Debian 2.1/2.2 - Man Cache File Creation"|20897.sh
+other||20898|2001-05-18|jenggo|||"RedHat 6.1/6.2/7.0/7.1 - Man Cache File Creation"|20898.sh
+other||20900|2001-06-06|"Megyer Laszlo"|||"Exim 3.x - Format String"|20900.txt
+other||20901|2001-02-22|MaXX|||"Sudo 1.5/1.6 - Heap Corruption"|20901.c
+other||20926|2001-06-12|zen-parse|||"Linux Man Page 6.1/6.2/7.0/7.1- Source Buffer Overflow"|20926.txt
+other||20927|2001-06-14|"Carl Livitt"|||"BestCrypt 0.6/0.7/0.8 - BCTool UMount Buffer Overflow"|20927.c
+other||20928|2001-06-15|MasterSecuritY|||"Rxvt 2.6.1/2.6.2 - Local Buffer Overflow"|20928.sh
+other||20967|2001-01-26|zen-parse|||"Vim 5.x - Swap File Race Condition"|20967.c
+kernel||20979|2001-06-27|zen-parse|||"Linux Kernel 2.2/2.4 - procfs Stream redirection to Process Memory Privilege Escalation"|20979.c
+other||20986|2001-07-02|"Christophe Bailleux"|||"Xvt 2.1 - Local Buffer Overflow"|20986.c
+other||20988|2001-06-29|"Juergen Pabel"|||"CylantSecure 1.0 - Kernel Module Syscall Rerouting"|20988.c
+other||20990|2001-06-22|zen-parse|||"teTeX 1.0.7 - Filters Temporary File Race Condition"|20990.c
+other||20992|2001-07-04|"Charles Stevenson"|||"Lmail 2.7 - Temporary File Race Condition"|20992.c
+other||21010|2001-06-11|kf|||"XFree86 X11R6 3.3.2 XMan - ManPath Environment Variable Buffer Overflow"|21010.sh
+other||21014|2001-07-17|josh|||"Slackware 7.0/7.1/8.0 - Manual Page Cache File Creation"|21014.c
+other||21043|2001-08-01|"Josh Smith"|||"GNU findutils 4.0/4.1 - Locate Arbitrary Command Execution"|21043.c
+other||21060|2001-08-17|grange|||"Sendmail 8.11/8.12 Debugger - Arbitrary Code Execution (1)"|21060.c
+other||21061|2001-08-17|sd@sf.cz|||"Sendmail 8.11/8.12 Debugger - Arbitrary Code Execution (2)"|21061.c
+other||21062|2001-08-17|"Lucian Hudin"|||"Sendmail 8.11/8.12 Debugger - Arbitrary Code Execution (3)"|21062.txt
+other||21063|2001-08-17|"RoMaN SoFt"|||"Sendmail 8.11/8.12 Debugger - Arbitrary Code Execution (4)"|21063.txt
+kernel||21124|2001-10-18|"Rafal Wojtczuk"|||"Linux Kernel 2.2/2.4 - Ptrace/Setuid Exec Privilege Escalation"|21124.txt
+other||21158|2001-11-21|IhaQueR@IRCnet|||"SuSE Linux 6.4/7.0/7.1/7.2 Berkeley Parallel Make - Shell Definition Format String"|21158.c
+other||21159|2001-11-21|IhaQueR@IRCnet|||"SuSE Linux 6.4/7.0/7.1/7.2 Berkeley Parallel Make - Local Buffer Overflow"|21159.c
+other||21216|2002-01-13|anonymous|||"CDRDAO 1.1.x - Home Directory Configuration File Symbolic Link (1)"|21216.sh
+other||21217|2002-01-13|atomi|||"CDRDAO 1.1.x - Home Directory Configuration File Symbolic Link (2)"|21217.sh
+other||21218|2002-01-13|anonymous|||"CDRDAO 1.1.x - Home Directory Configuration File Symbolic Link (3)"|21218.sh
+other||21219|2002-01-13|"Karol Wiesek"|||"CDRDAO 1.1.x - Home Directory Configuration File Symbolic Link (4)"|21219.sh
+other||21226|2002-01-13|"Charles Stevenson"|||"IMLib2 - Home Environment Variable Buffer Overflow"|21226.c
+other||21227|2002-01-14|"Charles Stevenson"|||"Sudo 1.6.3 - Unclean Environment Variable Privilege Escalation"|21227.sh
+other||21229|2002-01-16|"SuSE Security"|||"AT 3.1.8 - Formatted Time Heap Overflow"|21229.txt
+other||21231|2002-01-16|xperc|||"Chinput 3.0 - Environment Variable Buffer Overflow"|21231.c
+other||21247|2002-01-26|"Andrew Griffiths"|||"BRU 17.0 - SetLicense Script Insecure Temporary File Symbolic Link"|21247.c
+kernel||21248|2000-08-25|"Andrew Griffiths"|2.4.17||"User-Mode Linux (Linux Kernel 2.4.17-8) - Memory Access Privilege Escalation"|21248.txt
+other||21258|2002-01-29|"Hans Somers"|||"Microsoft Windows NT 4.0/2000 - NTFS File Hiding"|21258.bat
+other||21259|2002-01-30|"Taeho Oh"|||"Sun Java Virtual Machine 1.2.2/1.3.1 - Segmentation Violation"|21259.java
+other||21280|2002-02-07|Xpl017Elz|||"Hanterm 3.3 - Local Buffer Overflow (1)"|21280.c
+other||21281|2002-02-07|xperc|||"Hanterm 3.3 - Local Buffer Overflow (2)"|21281.c
+other||21302|2002-02-25|"Haiku Hacker"|||"Century Software Term For Linux 6.27.869 - Command Line Buffer Overflow"|21302.c
+other||21323|2012-07-17|"Sebastian Krahmer"|||"libdbus - 'DBUS_SYSTEM_BUS_ADDRESS' Local Privilege Escalation"|21323.c
+other||21341|2002-02-27|"the itch"|||"Ecartis 1.0.0/0.129 a Listar - Multiple Local Buffer Overflow Vulnerabilities (1)"|21341.c
+other||21342|2002-02-27|"the itch"|||"Ecartis 1.0.0/0.129 a Listar - Multiple Local Buffer Overflow Vulnerabilities (2)"|21342.c
+other||21348|2002-03-20|prophecy|||"Webmin 0.x - Code Input Validation"|21348.txt
+other||21353|2002-03-26|cliph|||"Linux Kernel 2.2.x/2.3/2.4.x - 'd_path()' Path Truncation"|21353.c
+other||21356|2002-03-27|spybreak|||"LogWatch 2.1.1/2.5 - Insecure Temporary Directory Creation"|21356.sh
+other||21362|2002-04-01|"the itch"|||"Oracle 8i - TNS Listener Local Command Parameter Buffer Overflow"|21362.c
+other||21375|2002-04-11|"Paul Starzetz"|||"ISC INN 2.0/2.1/2.2.x - Multiple Local Format String Vulnerabilities"|21375.txt
+other||21398|2002-04-18|A.Dimitrov|||"SSH2 3.0 - Restricted Shell Escape (Command Execution)"|21398.txt
+other||21420|2001-11-01|MaXX|||"Sudo 1.6.x - Password Prompt Heap Overflow"|21420.c
+other||21458|2002-05-17|"Guillaume PELAT"|||"Grsecurity Kernel Patch 1.9.4 (Linux Kernel) - Memory Protection"|21458.txt
+other||21496|2002-05-30|smurf|||"IBM Informix SE 7.25 sqlexec - Local Buffer Overflow (1)"|21496.c
+other||21497|2002-05-30|pHrail|||"IBM Informix SE 7.25 sqlexec - Local Buffer Overflow (2)"|21497.pl
+other||21499|2002-05-31|"Simon Ouellette"|||"QNX RTOS 4.25 - 'CRTTrap' File Disclosure"|21499.txt
+other||21500|2002-05-31|"Simon Ouellette"|||"QNX RTOS 4.25 - monitor Arbitrary File Modification"|21500.txt
+other||21501|2002-05-31|"Simon Ouellette"|||"QNX RTOS 4.25 - dumper Arbitrary File Modification"|21501.txt
+other||21502|2002-06-03|badc0ded|||"QNX RTOS 4.25/6.1 - su Password Hash Disclosure"|21502.txt
+other||21503|2002-06-03|badc0ded|||"QNX RTOS 4.25/6.1 - 'phgrafx' Local Privilege Escalation"|21503.sh
+other||21504|2002-06-03|badc0ded|||"QNX RTOS 4.25/6.1 - 'phgrafx-startup' Local Privilege Escalation"|21504.sh
+other||21505|2002-06-03|badc0ded|||"QNX RTOS 6.1 - '/usr/photon/bin/phlocale' Environment Variable Buffer Overflow"|21505.c
+other||21506|2002-06-03|badc0ded|||"QNX RTOS 6.1 - 'PKG-Installer' Local Buffer Overflow"|21506.c
+other||21507|2002-06-03|badc0ded|||"QNX 6.x - 'ptrace()' Arbitrary Process Modification"|21507.sh
+other||21538|2002-06-12|"Patrick Smith"|||"Richard Gooch SimpleInit 2.0.2 - Open File Descriptor"|21538.c
+other||21568|2002-06-19|methodic|||"Cisco VPN Client for Unix 3.5.1 - Local Buffer Overflow"|21568.c
+other||21583|2002-06-29|clorox|||"Mandrake 7/8/9 / RedHat 6.x/7 Bonobo EFSTool - Commandline Argument Buffer Overflow (1)"|21583.pl
+other||21584|2002-06-29|"andrea lisci"|||"Mandrake 7/8/9 / RedHat 6.x/7 Bonobo EFSTool - Commandline Argument Buffer Overflow (2)"|21584.pl
+other||21585|2002-06-29|N4rK07IX|||"Mandrake 7/8/9 / RedHat 6.x/7 Bonobo EFSTool - Commandline Argument Buffer Overflow (3)"|21585.c
+other||21623|2002-07-17|"Jeff Epler"|||"Python 1.5.2 Pickle - Unsafe 'eval()' Code Execution"|21623.txt
+other||21624|2002-07-17|"Jeff Epler"|||"Python 1.5/1.6/2.0/2.1.x - Pickle Class Constructor Arbitrary Code Execution"|21624.py
+other||21666|2012-10-02|"Jean Pascal Pereira"|||"soapbox 0.3.1 - Local Privilege Escalation"|21666.txt
+other||21667|2002-07-29|"Sebastian Krahmer"|||"MM 1.0.x/1.1.x - Shared Memory Library Temporary File Privilege Escalation"|21667.c
+other||21674|2002-07-31|gobbles|||"William Deich Super 3.x - SysLog Format String"|21674.c
+other||21683|2002-08-06|"Thomas Cannon"|||"qmailadmin 1.0.x - Local Buffer Overflow"|21683.c
+other||21700|2002-08-10|"Gobbles Security"|||"ISDN4Linux 3.1 - IPPPD Device String SysLog Format String (1)"|21700.c
+other||21701|2002-08-10|"TESO Security"|||"ISDN4Linux 3.1 - IPPPD Device String SysLog Format String (2)"|21701.pl
+other||21732|2002-08-20|"Derek D. Martin"|||"SCPOnly 2.3/2.4 - SSH Environment Shell Escaping"|21732.txt
+other||21733|2002-06-28|"Charles Stevenson"|||"Sun Cobalt RaQ 4.0 - Predictable Temporary Filename Symbolic Link Attack"|21733.sh
+other||21761|2002-08-28|RaiSe|||"Linuxconf 1.1.x/1.2.x - Local Environment Variable Buffer Overflow (1)"|21761.c
+other||21762|2002-08-28|"David Endler"|||"Linuxconf 1.1.x/1.2.x - Local Environment Variable Buffer Overflow (2)"|21762.c
+other||21763|2002-08-28|syscalls|||"Linuxconf 1.1.x/1.2.x - Local Environment Variable Buffer Overflow (3)"|21763.txt
+other||21793|2002-09-13|prophecy|||"BRU 17.0 - XBRU Insecure Temporary File"|21793.txt
+other||21814|2002-09-20|zillion|||"AlsaPlayer 0.99.71 - Local Buffer Overflow"|21814.c
+kernel||21848|2012-10-10|Metasploit|1.4.1||"Linux Kernel UDEV < 1.4.1 - 'Netlink' Local Privilege Escalation (Metasploit)"|21848.rb
+other||21865|2002-09-25|grazer|||"Interbase 5/6 - GDS_Lock_MGR UMask File Permission Changing"|21865.c
+other||21871|2002-09-26|zen-parse|||"GV 2.x/3.x - '.PDF'/'.PS' File Buffer Overflow (1)"|21871.c
+other||21872|2002-09-26|infamous42md|||"GV 2.x/3.x - '.PDF'/'.PS' File Buffer Overflow (2)"|21872.c
+other||21980|2002-11-01|Girish|||"Abuse 2.0 - Local Buffer Overflow"|21980.c
+other||22002|2002-11-08|Texonet|||"QNX RTOS 6.2 - Application Packager Non-Explicit Path Execution"|22002.txt
+other||22014|2002-11-12|"Carl Livitt"|||"Traceroute-nanog 6 - Local Buffer Overflow"|22014.c
+other||22055|2002-11-29|zen-parse|||"SUIDPerl 5.6 - Information Disclosure"|22055.txt
+other||22066|2002-12-04|"Thomas Wana"|||"Exim Internet Mailer 3.35/3.36/4.10 - Format String"|22066.c
+other||22128|2003-01-06|"Carl Livitt"|||"H-Sphere WebShell 2.4 - Local Privilege Escalation"|22128.c
+other||22189|2003-01-21|"Karol Wiesek"|||"MTink 0.9.x - Printer Status Monitor Environment Variable Buffer Overflow"|22189.txt
+other||22190|2003-01-21|"Karol Wiesek"|||"ESCPUtil 1.15.2 2 - Printer Name Local Buffer Overflow"|22190.txt
+other||22212|2001-04-21|teknophreak|||"QNX RTOS 2.4 - File Disclosure"|22212.txt
+other||22233|2003-02-10|tsao@efnet|||"Nethack 3 - Local Buffer Overflow (1)"|22233.c
+other||22234|2003-02-10|bob@dtors.net|||"Nethack 3 - Local Buffer Overflow (2)"|22234.c
+other||22235|2003-02-10|tsao@efnet|||"Nethack 3 - Local Buffer Overflow (3)"|22235.pl
+other||22265|2003-02-19|deadbeat|||"cPanel 5.0 - 'Openwebmail' Local Privilege Escalation"|22265.pl
+other||22320|2003-03-03|"dcryptr && tarranta"|||"XFree86 4.2 - 'XLOCALEDIR' Local Buffer Overflow (1)"|22320.c
+other||22321|2003-03-03|"Guilecool & deka"|||"XFree86 4.2 - 'XLOCALEDIR' Local Buffer Overflow (2)"|22321.c
+other||22322|2003-03-03|omega|||"XFree86 4.2 - 'XLOCALEDIR' Local Buffer Overflow (3)"|22322.c
+other||22323|2003-03-03|axis|||"XFree86 4.2 - 'XLOCALEDIR' Local Buffer Overflow (4)"|22323.c
+other||22326|2003-03-06|CrZ|||"File 3.x - Utility Local Memory Allocation"|22326.c
+other||22340|2003-03-08|bugsman@libero.it|||"MySQL 3.23.x - 'mysqld' Local Privilege Escalation"|22340.txt
+other||22344|2003-03-11|"Jack Lloyd"|||"Man Program 1.5 - Unsafe Return Value Command Execution"|22344.txt
+kernel||22362|2003-03-17|anszom@v-lo.krakow.pl|||"Linux Kernel 2.2.x/2.4.x - Privileged Process Hijacking Privilege Escalation (1)"|22362.c
+kernel||22363|2003-04-10|"Wojciech Purczynski"|||"Linux Kernel 2.2.x/2.4.x - Privileged Process Hijacking Privilege Escalation (2)"|22363.c
+other||22376|2003-03-28|"Core Security"|||"GNOME Eye Of Gnome 1.0.x/1.1.x/2.2 - Format String"|22376.txt
+other||22452|2003-04-03|zillion|||"ChiTeX 6.1.2 - Local Privilege Escalation"|22452.sh
+other||22456|2003-04-03|"Carl Livitt"|||"AutomatedShops WebC 2.0/5.0 - Symbolic Link Following Configuration File"|22456.txt
+other||22458|2003-04-04|"Andrew Griffiths"|||"Linux Kernel 2.2.x/2.4.x - I/O System Call File Existence"|22458.c
+other||22531|2003-04-23|"Larry W. Cashdollar"|||"SAP Database 7.3/7.4 - SDBINST Race Condition"|22531.pl
+other||22538|2003-04-24|jlanthea|||"Libopt.a 3.1x - Error Logging Buffer Overflow (2)"|22538.pl
+other||22540|2003-02-18|"Angelo Rosiello"|||"Linux-ATM LES 2.4 - Command Line Argument Buffer Overflow"|22540.c
+other||22565|2003-05-05|"Secret Squirrel"|||"MySQL 3.x/4.0.x - Weak Password Encryption"|22565.c
+other||22567|2003-05-06|gunzip|||"Leksbot 1.2 - Multiple Vulnerabilities"|22567.c
+other||22594|2003-05-13|CMN|||"CDRTools CDRecord 1.11/2.0 - Devname Format String"|22594.c
+other||22616|2003-05-21|"Luca Ercoli"|||"Maelstrom Player 3.0.x - Argument Buffer Overflow (1)"|22616.pl
+other||22617|2003-05-20|knight420|||"Maelstrom Player 3.0.x - Argument Buffer Overflow (2)"|22617.c
+other||22633|2003-05-22|demz|||"Polymorph 0.4 - Filename Buffer Overflow"|22633.c
+other||22640|2003-05-23|ktha@hushmail.com|||"UML_NET - Integer Mismanagement Code Execution"|22640.c
+other||22643|2003-05-26|jlanthea|||"Ifenslave 0.0.7 - Argument Local Buffer Overflow (1)"|22643.pl
+other||22644|2003-05-26|jsk|||"Ifenslave 0.0.7 - Argument Local Buffer Overflow (2)"|22644.c
+other||22645|2003-05-26|"Julien L"|||"Ifenslave 0.0.7 - Argument Local Buffer Overflow (3)"|22645.c
+other||22683|2012-11-13|ZadYree|||"HT Editor 2.0.20 - Local Buffer Overflow (ROP)"|22683.pl
+other||22695|2003-05-30|mark@vulndev.org|||"RedHat 9.0 / Slackware 8.1 - '/bin/mail' Carbon Copy Field Buffer Overrun"|22695.pl
+other||22703|2003-03-31|"Gabriel A. Maggiotti"|||"XMame 0.6x - Lang Local Buffer Overflow"|22703.c
+other||22719|2003-06-03|wsxz|||"kon2 - Local Buffer Overflow (1)"|22719.pl
+other||22720|2003-06-03|c0ntex|||"kon2 - Local Buffer Overflow (2)"|22720.c
+other||22729|2003-06-04|V9|||"Man 1.5.1 - Catalog File Format String"|22729.c
+other||22745|2003-06-06|V9|||"Zblast 1.2 - 'Username' Local Buffer Overrun"|22745.c
+other||22748|2003-06-06|bazarr@ziplip.com|||"Xaos 3.0 - Language Option Local Buffer Overflow"|22748.c
+other||22768|2003-06-06|"Julien LANTHEA"|||"ATFTP 0.7 - Timeout Command Line Argument Local Buffer Overflow"|22768.pl
+other||22773|2003-06-14|kf|||"Progress Database 9.1 - Environment Variable Privilege Escalation"|22773.c
+other||22775|2003-06-14|"Stefano Di Paola"|||"FreeWnn 1.1.1 - JServer Logging Option Data Corruption"|22775.txt
+kernel||22781|2003-06-16|"Karol Wiesek"|||"Linux PAM 0.77 - Pam_Wheel Module 'getlogin() Username' Spoofing Privilege Escalation"|22781.txt
+other||22806|2003-06-19|V9|||"SDFingerD 1.1 - Failure To Drop Privileges Privilege Escalation"|22806.sh
+other||22813|2003-06-20|IhaQueR|||"Linux Kernel 2.2.x/2.4.x - '/proc' Filesystem Information Disclosure"|22813.c
+other||22815|2003-06-21|Xpl017Elz|||"GNU GNATS 3.113 - Environment Variable Buffer Overflow"|22815.c
+other||22836|1997-05-13|kokanin|||"Elm 2.3/2.4 - TERM Environment Variable Local Buffer Overrun"|22836.pl
+other||22840|2003-06-26|IhaQueR|||"Linux Kernel 2.4 - SUID 'execve()' System Call Race Condition Executable File Read"|22840.c
+other||22847|2003-07-01|"Larry W. Cashdollar"|||"InterSystems Cache 4.1.15/5.0.x - Insecure Default Permissions"|22847.txt
+other||22860|2003-07-03|ace|||"GNU Chess 5.0 - Local Buffer Overflow"|22860.c
+other||22861|2003-07-03|ace|||"GNU AN - Command Line Option Local Buffer Overflow"|22861.c
+other||22862|2003-07-03|ace|||"ISDNRep 4.56 - Command Line Argument Local Buffer Overflow (1)"|22862.c
+other||22863|2003-07-04|snooq|||"ISDNRep 4.56 - Command Line Argument Local Buffer Overflow (2)"|22863.c
+other||22884|2003-07-08|FBHowns|||"Tower Toppler 0.96 - 'HOME Environment' Local Buffer Overflow"|22884.c
+other||22928|2012-11-26|Tosh|||"mcrypt 2.5.8 - Local Stack Overflow"|22928.pl
+other||22943|2003-07-22|UHAGr|||"Top 1.x/2.0 - 'HOME Environment' Local Buffer Overflow"|22943.c
+other||22965|2003-07-28|c0wboy|||"XBlast 2.6.1 - 'HOME Environment' Local Buffer Overflow"|22965.c
+other||22971|2003-07-29|V9|||"ManDB Utility 2.3/2.4 - Local Buffer Overflow"|22971.txt
+other||22979|2003-08-01|"Secure Network Operations"|||"CDRTools 2.0 - RSCSI Debug File Arbitrary Local File Manipulation"|22979.txt
+other||22984|2003-08-04|V9|||"Xtokkaetama 1.0 b-6 - Nickname Local Buffer Overflow (1)"|22984.c
+other||22985|2003-08-04|techieone@softhome.net|||"Xtokkaetama 1.0 b-6 - Nickname Local Buffer Overflow (2)"|22985.c
+other||22993|2003-07-07|@stake|||"IPNetSentryX / IPNetMonitorX - Unauthorized Network Reconnaissance"|22993.txt
+other||22996|2003-07-18|r-code|||"XPCD 2.0.8 - 'HOME Environment' Local Buffer Overflow"|22996.c
+other||23045|2003-08-20|kf|||"ViRobot Linux Server 2.0 - Local Overflow"|23045.pl
+kernel||23077|2012-12-02|kingcope|||"MySQL (Linux) - Database Privilege Escalation"|23077.pl
+other||23119|2003-09-09|"Jon Hart"|||"Apache::Gallery 0.4/0.5/0.6 - Insecure File Storage Privilege Escalation"|23119.c
+kernel||23126|2003-09-09|"Jon Hart"|||"RealOne Player for Linux 2.2 Alpha - Insecure Configuration File Permission Privilege Escalation"|23126.c
+other||23168|2003-09-22|"Sebastian Krahmer"|||"Man Utility 2.3.19 - Local Compression Program Privilege Escalation"|23168.pl
+other||23189|2003-09-26|demz|||"marbles 1.0.1 - Local Home Environment Variable Buffer Overflow"|23189.c
+other||23197|2003-09-29|jsk|||"Mah-Jong 1.4 - MJ-Player Server Flag Local Buffer Overflow"|23197.c
+other||23204|2003-09-30|demz|||"Silly Poker 0.25.5 - Local HOME Environment Variable Buffer Overrun"|23204.c
+other||23223|2003-10-06|"Nash Leon"|||"SuSE Linux Professional 8.2 - SuSEWM Configuration File Insecure Temporary File"|23223.c
+other||23228|2003-10-06|"Patrik Hornik"|||"SLocate 2.6 - User-Supplied Database Heap Overflow"|23228.c
+other||23251|2012-12-09|"Larry W. Cashdollar"|||"Centrify Deployment Manager 2.1.0.283 - Local Privilege Escalation"|23251.txt
+other||23258|2003-10-17|c0ntex|||"Oracle Database Server 9.0.x - Oracle Binary Local Buffer Overflow"|23258.c
+other||23297|2003-10-27|"dong-h0un U"|||"Musicqueue 1.2 - SIGSEGV Signal Handler Insecure File Creation"|23297.c
+other||23299|2003-10-27|axis|||"Wireless Tools 26 (IWConfig) - ARGV Local Command Line Buffer Overflow (1)"|23299.c
+other||23300|2003-11-11|heka|||"Wireless Tools 26 (IWConfig) - ARGV Local Command Line Buffer Overflow (2)"|23300.c
+other||23301|2003-10-27|NrAziz|||"Wireless Tools 26 (IWConfig) - ARGV Local Command Line Buffer Overflow (3)"|23301.c
+other||23303|2003-10-27|"dong-h0un U"|||"Musicqueue 0.9/1.0/1.1 - Multiple Buffer Overrun Vulnerabilities"|23303.c
+other||23308|2003-10-28|b0f|||"kpopup 0.9.x - Privileged Command Execution"|23308.c
+other||23344|2003-11-07|SNOSoft|||"IBM DB2 - 'db2start' Format String Arbitrary Code Execution"|23344.txt
+other||23345|2003-11-07|SNOSoft|||"IBM DB2 - 'db2stop' Format String Arbitrary Code Execution"|23345.txt
+other||23346|2003-11-07|SNOSoft|||"IBM DB2 - 'db2govd' Format String Arbitrary Code Execution"|23346.txt
+other||23350|2003-11-07|c0wboy|||"TerminatorX 3.8 - Multiple Command-Line and Environment Buffer Overrun Vulnerabilities (1)"|23350.c
+other||23351|2003-11-07|Bobby|||"TerminatorX 3.8 - Multiple Command-Line and Environment Buffer Overrun Vulnerabilities (2)"|23351.c
+other||23352|2003-11-07|"m00 security"|||"TerminatorX 3.8 - Multiple Command-Line and Environment Buffer Overrun Vulnerabilities (3)"|23352.c
+other||23364|2003-11-08|"Knud Erik Hojgaard"|||"WMAPM 3.1 - Local Privilege Escalation"|23364.sh
+other||23414|2003-12-05|auto22238|||"FVWM 2.4/2.5 - fvwm-menu-Directory Command Execution"|23414.txt
+other||23479|2003-12-26|"Pooh Hacking Squadron"|||"GNU Indent 2.2.9 - Local Heap Overflow"|23479.sh
+other||23481|2003-12-26|"Steve Grubb"|||"Apache 2.0.4x mod_php - File Descriptor Leakage (1)"|23481.c
+other||23482|2003-12-26|"frauk\x41ser"|||"Apache 2.0.4x mod_php - File Descriptor Leakage (2)"|23482.c
+other||23510|2003-12-30|N2n-Hacker|||"XSOK 1.0 2 - 'LANG Environment' Local Buffer Overrun"|23510.c
+other||23581|2004-01-21|"Steve Grubb"|||"Apache 2.0.4x mod_perl - File Descriptor Leakage (3)"|23581.pl
+other||23658|2004-02-06|"Markus Mueller"|||"Linux VServer Project 1.2x - Chroot Breakout"|23658.c
+kernel||23674|2004-02-09|"Martin Fiala"|2.2.8||"Samba 2.2.8 (Linux Kernel 2.6 / Debian / Mandrake) - Share Privilege Escalation"|23674.txt
+other||23682|2004-11-10|bender2@lonestar.org|||"XFree86 4.3 - Font Information File Buffer Overflow"|23682.c
+other||23743|2003-02-23|"Tomasz Grabowski"|||"Platform Load Sharing Facility 4/5/6 - 'EAuth' Local Privilege Escalation"|23743.txt
+other||23759|2004-02-25|"Sebastian Krahmer"|||"MTools 3.9.x - 'MFormat' Local Privilege Escalation"|23759.pl
+other||23849|2004-03-19|"Dominik Vogt"|||"FVWM 2.4.17/2.5.8 - fvwm_make_browse_menu.sh Scripts Command Execution"|23849.txt
+other||23882|2004-03-26|"spiffomatic 64"|||"NetSupport School 7.0/7.5 - Weak Password Encryption"|23882.pas
+other||23892|2004-03-29|Brad|||"Systrace 1.x - Local Policy Bypass"|23892.c
+other||24027|2004-04-19|"Steve Grubb"|||"UTempter 0.5.x - Multiple Local Vulnerabilities"|24027.txt
+other||24043|2004-04-23|"Brad Spengler"|||"Linux Kernel 2.5.x/2.6.x - CPUFreq Proc Handler Integer Handling Memory Read"|24043.c
+other||24123|2004-05-17|"Hugo Vazquez"|||"WGet 1.x - Insecure File Creation Race Condition"|24123.sh
+other||24141|2004-05-24|"Rob Brown"|||"cPanel 5 < 9 - Local Privilege Escalation"|24141.txt
+other||24182|2004-06-09|"Gyan Chawdhary"|||"CVS 1.11.x - Multiple Vulnerabilities"|24182.c
+other||24278|2004-07-13|"SEKINE Tatsuo"|||"IM-Switch - Insecure Temporary File Handling Symbolic Link"|24278.sh
+other||24398|2004-08-23|I)ruid|||"IMWheel 1.0 - Predictable Temporary File Creation"|24398.sh
+other||24406|2004-08-24|"Rudolf Polzer"|||"GNU a2ps 4.13 - File Name Command Execution"|24406.txt
+other||24421|2004-08-31|"Steven Van Acker"|||"Debian bsdmainutils 6.0.14 - Calendar Information Disclosure"|24421.c
+service||24458|2013-02-05|"Larry W. Cashdollar"|||"Oracle Automated Service Manager 1.3 - Installation Privilege Escalation"|24458.txt
+other||24459|2013-02-05|vladz|||"Linux Kernel 2.6.32-5 (Debian 6.0.5) - '/dev/ptmx' Key Stroke Timing Local Disclosure"|24459.sh
+other||24570|2004-09-03|"Julio Cesar Fort"|||"QNX PPPoEd 2.4/4.25/6.2 - Path Environment Variable Local Command Execution"|24570.txt
+other||24606|2004-09-18|"Rosiello Security"|||"Sudo 1.6.8 - Information Disclosure"|24606.c
+other||24694|2004-10-18|xCrZx|||"Apache 1.3.x mod_include - Local Buffer Overflow"|24694.c
+other||24749|2004-11-17|Gangstuck|||"Cscope 13.0/15.x - Insecure Temporary File Creation (1)"|24749.sh
+other||24750|2004-11-17|Gangstuck|||"Cscope 13.0/15.x - Insecure Temporary File Creation (2)"|24750.c
+other||24757|2004-11-19|"Marc Schoenefeld"|||"opera Web browser 7.54 java implementation - Multiple Vulnerabilities (3)"|24757.java
+other||24758|2004-11-19|"Marc Schoenefeld"|||"Opera Web browser 7.54 java implementation - Multiple Vulnerabilities (4)"|24758.java
+other||24929|2013-04-08|Metasploit|||"HP System Management Homepage - Local Privilege Escalation (Metasploit)"|24929.rb
+other||24933|2013-04-08|"John Cartwright"|||"PonyOS 0.4.99-mlp - Multiple Vulnerabilities"|24933.txt
+other||25106|2005-02-16|"Ulf Harnhammar"|||"Typespeed 0.4.1 - Local Format String"|25106.c
+other||25134|2013-05-01|aeon|||"sudo 1.8.0 < 1.8.3p1 - 'sudo_debug' glibc FORTIFY_SOURCE Bypass + Privilege Escalation"|25134.c
+kernel||25202|2005-03-09|sd|||"Linux Kernel 2.6.x - 'SYS_EPoll_Wait' Local Integer Overflow / Local Privilege Escalation (1)"|25202.c
+kernel||25288|2005-04-08|qobaiashi|||"Linux Kernel 2.4.x/2.6.x - BlueTooth Signed Buffer Index Privilege Escalation (1)"|25288.c
+kernel||25289|2005-10-19|backdoored.net|2.4.30||"Linux Kernel 2.4.30/2.6.11.5 - BlueTooth 'bluez_sock_create' Local Privilege Escalation"|25289.c
+other||25406|2013-05-13|HTP|||"Kloxo 6.1.6 - Local Privilege Escalation"|25406.sh
+other||25411|2013-05-13|"Alberto Ortega"|||"No-IP Dynamic Update Client (DUC) 2.1.9 - Local IP Address Stack Overflow"|25411.py
+kernel||25444|2013-05-14|sd|2.6.32||"Linux Kernel 2.6.32 < 3.x (CentOS 5/6) - 'PERF_EVENTS' Local Privilege Escalation (1)"|25444.c
+kernel||25450|2013-05-14|"Andrew Lutomirski"|||"Linux Kernel < 3.8.x - open-time Capability 'file_ns_capable()' Local Privilege Escalation"|25450.c
+other||25688|2005-05-30|jsk:exworm|||"Gedit 2.x - Filename Format String"|25688.txt
+other||25707|2005-05-26|"Markku-Juhani O. Saarinen"|||"Linux Kernel 2.6.x - Cryptoloop Information Disclosure"|25707.txt
+other||25709|2005-05-26|"Eric Romang"|||"Gentoo Webapp-Config 1.10 - Insecure File Creation"|25709.sh
+other||25789|2005-06-06|"Miklos Szeredi"|||"FUSE 2.2/2.3 - Local Information Disclosure"|25789.c
+other||25947|2005-07-06|pi3ki31ny|||"GNU GNATS 4.0/4.1 - Gen-Index Arbitrary Local File Disclosure/Overwrite"|25947.txt
+other||25993|2005-07-18|"Giovanni Delvecchio"|||"Skype Technologies Skype 0.92/1.0/1.1 - Insecure Temporary File Creation"|25993.sh
+other||26100|2005-08-05|c0ntex|||"Lantronix Secure Console Server SCS820/SCS1620 - Multiple Local Vulnerabilities"|26100.sh
+other||26195|2005-08-24|"Julio Cesar Fort"|||"QNX RTOS 6.1/6.3 - InputTrap Local Arbitrary File Disclosure"|26195.txt
+other||26218|2005-09-01|rotor|||"Frox 0.7.18 - Arbitrary Configuration File Access"|26218.txt
+other||26321|2005-10-03|"Paul Szabo"|||"Gnome-PTY-Helper UTMP - Hostname Spoofing"|26321.c
+other||26353|2005-10-17|"Rudolf Polzer"|||"Linux Kernel 2.6 - Console Keymap Local Command Injection"|26353.txt
+other||26451|2013-06-26|Metasploit|||"ZPanel zsudo - Local Privilege Escalation (Metasploit)"|26451.rb
+other||26492|2002-12-31|"Georgi Guninski"|||"Emacs 2.1 - Local Variable Arbitrary Command Execution"|26492.txt
+other||26498|2005-11-11|"Charles Morris"|||"Sudo Perl 1.6.x - Environment Variable Handling Security Bypass"|26498.txt
+other||27056|2006-01-09|"Breno Silva Pinto"|||"Sudo 1.6.x - Environment Variable Handling Security Bypass (1)"|27056.pl
+other||27057|2006-01-09|"Breno Silva Pinto"|||"Sudo 1.6.x - Environment Variable Handling Security Bypass (2)"|27057.py
+other||27065|2006-01-10|"Micheal Turner"|||"Cray UNICOS /usr/bin/script - Command Line Argument Local Overflow"|27065.txt
+other||27066|2006-01-10|"Micheal Turner"|||"Cray UNICOS /etc/nu - '-c' Option Filename Processing Local Overflow"|27066.txt
+other||27231|2006-02-15|taviso|||"GnuPG 1.x - Detached Signature Verification Bypass"|27231.txt
+kernel||27297|2013-08-02|spender|3.7.6||"Linux Kernel 3.7.6 (RedHat x86/x64) - 'MSR' Driver Privilege Escalation"|27297.c
+other||27461|2006-03-23|"Pavel Kankovsky"|||"Linux Kernel 2.4.x/2.5.x/2.6.x - 'Sockaddr_In.Sin_Zero' Kernel Memory Disclosure"|27461.c
+other||27766|2006-04-28|"Marcel Holtmann"|||"Linux Kernel 2.6.x - SMBFS CHRoot Security Restriction Bypass"|27766.txt
+other||27769|2006-04-28|"Marcel Holtmann"|||"Linux Kernel 2.6.x - CIFS CHRoot Security Restriction Bypass"|27769.txt
+other||27938|2013-08-29|Metasploit|||"VMware - Setuid VMware-mount Unsafe popen(3) (Metasploit)"|27938.rb
+other||28287|2006-07-27|anonymous|||"Linux-HA Heartbeat 1.2.3/2.0.x - Insecure Default Permissions on Shared Memory"|28287.c
+other||28288|2006-07-27|"Dedi Dwianto"|||"MidiRecord2 MidiRecord.CC - Local Buffer Overflow"|28288.c
+other||28332|2013-09-17|Metasploit|||"Sophos Web Protection Appliance - clear_keys.pl Privilege Escalation (Metasploit)"|28332.rb
+other||28405|2006-08-18|Netragard|||"Roxio Toast 7 - DejaVu Component PATH Variable Privilege Escalation"|28405.txt
+other||28657|2013-09-30|"Hector Marco & Ismael Ripoll"|||"glibc and eglibc 2.5/2.7/2.13 - Local Buffer Overflow"|28657.c
+other||28680|2013-10-02|"Core Security"|||"PinApp Mail-SeCure 3.70 - Access Control Failure"|28680.txt
+other||28806|2013-10-08|"Lorenzo Cantoni"|||"davfs2 1.4.6/1.4.7 - Local Privilege Escalation"|28806.txt
+kernel||29446|2006-12-18|anonymous|||"Grsecurity Kernel PaX - Local Privilege Escalation"|29446.c
+other||29467|2007-01-15|"Rixstep Pwned"|||"Rixstep Undercover - Local Privilege Escalation"|29467.c
+kernel||29714|2007-03-05|"Michael Kerrisk"|2.6.17||"Linux Kernel 2.6.17 - 'Sys_Tee' Local Privilege Escalation"|29714.txt
+other||29746|2007-03-15|anonymous|||"Horde Framework and IMP 2.x/3.x - Cleanup Cron Script Arbitrary File Deletion"|29746.txt
+other||29822|2007-04-06|"Daniel Roethlisberger"|||"Man Command - -H Flag Local Buffer Overflow"|29822.c
+other||29954|2007-05-07|"Arnaud Giersch"|||"ELinks Relative 0.10.6/011.1 - Path Arbitrary Code Execution"|29954.txt
+other||30093|2007-05-28|raylai|||"Mutt 1.4.2 - Mutt_Gecos_Name Function Local Buffer Overflow"|30093.txt
+other||30280|2007-07-05|"Steve Kemp"|||"GFax 0.7.6 - Temporary Files Local Arbitrary Command Execution"|30280.txt
+other||30464|2007-08-09|"Robert N. M. Watson"|||"Generic Software Wrappers Toolkit 1.6.3 (GSWTK) - Race Condition Privilege Escalation"|30464.c
+other||30503|2007-08-16|forloop|||"BlueCat Networks Adonis 5.0.2.8 - CLI Privilege Escalation"|30503.txt
+kernel||30604|2007-09-21|"Wojciech Purczynski"|||"Linux Kernel 2.6.x - Ptrace Privilege Escalation"|30604.c
+other||30605|2007-09-21|Karimo_DM|||"Linux Kernel 2.6.x - ALSA snd-page-alloc Local Proc File Information Disclosure"|30605.c
+other||30620|2007-09-22|"Joris van Rantwijk"|||"Xen 3.0.3 - pygrub TOOLS/PYGRUB/SRC/GRUBCONF.PY Local Command Injection"|30620.txt
+other||30780|2007-11-20|"Andrew Christensen"|||"ISPmanager 4.2.15 - Responder Privilege Escalation"|30780.txt
+service||30839|2007-12-03|"Bas van Schaik"|||"Zabbix 1.1.4/1.4.2 - 'daemon_start' Local Privilege Escalation"|30839.c
+other||31151|2008-02-12|forensec|||"GKrellM GKrellWeather 0.2.7 Plugin - Local Stack Buffer Overflow"|31151.c
+other||31346|2014-02-02|saelo|||"Linux Kernel 3.4 < 3.13.2 (Ubuntu 13.10) - 'CONFIG_X86_X32' Arbitrary Write (2)"|31346.c
+other||31911|2008-06-14|"Jan Minar"|||"Vim 7.x - Vim Script Multiple Command Execution Vulnerabilities"|31911.txt
+other||31959|2008-06-23|"Frans Pop"|||"Perl - 'rmtree()' Function Local Insecure Permissions"|31959.txt
+other||32446|2008-09-30|"Pascal Bouchareine"|||"Xen 3.3 - XenStore Domain Configuration Data Unsafe Storage"|32446.txt
+other||32700|2014-04-04|Metasploit|||"ibstat $PATH - Local Privilege Escalation (Metasploit)"|32700.rb
+other||32805|2009-02-20|"Clément Lecigne"|||"Linux Kernel 2.6.x - 'sock.c' SO_BSDCOMPAT Option Information Disclosure"|32805.c
+other||32820|2009-02-26|"Andreas Jellinghaus"|||"OpenSC 0.11.x - PKCS#11 Implementation Unauthorized Access"|32820.txt
+other||32829|2009-03-02|"Chris Evans"|||"Linux Kernel 2.6.x - 'seccomp' System Call Security Bypass"|32829.c
+other||32848|2009-03-10|"Sun Microsystems"|||"Sun xVM VirtualBox 2.0/2.1 - Local Privilege Escalation"|32848.txt
+other||32947|2009-04-22|anonymous|||"DirectAdmin 1.33.3 - '/CMD_DB' Backup Action Insecure Temporary File Creation"|32947.txt
+other||33028|2014-04-25|joernchen|||"JRuby Sandbox 0.2.2 - Sandbox Escape"|33028.txt
+other||33145|2009-08-03|"Melissa Elliott"|||"PHP Fuzzer Framework - Default Location Insecure Temporary File Creation"|33145.c
+other||33255|2009-09-25|"Jan Lieskovsky"|||"Xen 3.x - pygrub Local Authentication Bypass"|33255.txt
+kernel||33321|2009-11-03|"teach & xipe"|2.6.0||"Linux Kernel 2.6.0 < 2.6.31 - 'pipe.c' Local Privilege Escalation (1)"|33321.c
+kernel||33322|2009-11-03|"teach & xipe"|||"Linux Kernel 2.6.x - 'pipe.c' Local Privilege Escalation (2)"|33322.c
+kernel||33336|2013-02-24|SynQ|||"Linux Kernel 3.3 < 3.8 (Ubuntu / Fedora 18) - 'sock_diag_handlers()' Local Privilege Escalation (3)"|33336.c
+other||33387|2014-05-16|"Dawid Golunski"|||"Nagios Plugins check_dhcp 2.0.1 - Arbitrary Option File Read"|33387.txt
+kernel||33395|2009-11-09|"Akira Fujita"|||"Linux Kernel 2.6.x - Ext4 'move extents' ioctl Privilege Escalation"|33395.txt
+other||33508|2010-01-13|"Eric Piel"|||"GNU Bash 4.0 - 'ls' Control Character Command Injection"|33508.txt
+kernel||33523|2009-12-16|"Tavis Ormandy"|2.6.28||"Linux Kernel < 2.6.28 - 'fasync_helper()' Local Privilege Escalation"|33523.c
+other||33576|2010-01-28|"Matthew Garrett"|||"Battery Life Toolkit 1.0.9 - 'bltk_sudo' Local Privilege Escalation"|33576.txt
+other||33604|2010-02-05|"Josh Stone"|||"SystemTap 1.0/1.1 - '__get_argv()' / '__get_compat_argv()' Local Memory Corruption"|33604.sh
+other||33614|2014-06-02|"Sebastian Krahmer"|||"dbus-glib pam_fprintd - Local Privilege Escalation"|33614.c
+other||33623|2010-02-10|"Tim Brown"|||"Accellion Secure File Transfer Appliance - Multiple Command Restriction / Privilege Escalations"|33623.txt
+other||33808|2014-06-18|"Sebastian Krahmer"|||"Docker 0.11 - VMM-Container Breakout"|33808.c
+kernel||33824|2014-06-21|"Vitaly Nikolenko"|||"Linux Kernel 3.13 - SGID Privilege Escalation"|33824.c
+other||33899|2014-06-28|"Thomas Stangner"|||"Chkrootkit 0.49 - Local Privilege Escalation"|33899.txt
+other||33904|2014-06-28|"Dawid Golunski"|||"Nagios Plugins check_dhcp 2.0.2 - Arbitrary Option File Read Race Condition"|33904.txt
+other||33963|2010-05-07|"Dan Rosenberg"|||"gdomap - Multiple Local Information Disclosure Vulnerabilities"|33963.txt
+other||34001|2010-05-18|"Dan Rosenberg"|||"Linux Kernel 2.6.x - Btrfs Cloned File Security Bypass"|34001.c
+other||34267|2010-07-07|"Bartlomiej Balcerek"|||"Altair Engineering PBS Pro 10.x - 'pbs_mom' Insecure Temporary File Creation"|34267.sh
+other||34421|2014-08-27|"taviso & scarybeasts"|||"glibc - NUL Byte gconv_translit_find Off-by-One"|34421.c
+other||34537|2010-08-26|"Micha Riser"|||"EncFS 1.6.0 - Flawed CBC/CFB Cryptography Implementation"|34537.txt
+kernel||34923|2014-10-09|"Andy Lutomirski"|3.16.1||"Linux Kernel < 3.16.1 - 'Remount FUSE' Local Privilege Escalation"|34923.c
+other||34987|2010-11-09|"Dan Rosenberg"|||"Linux Kernel 2.6.x - 'net/core/filter.c' Local Information Disclosure"|34987.c
+kernel||35021|2014-10-20|Metasploit|||"Linux PolicyKit - Race Condition Privilege Escalation (Metasploit)"|35021.rb
+other||35112|2014-10-29|"Robert Jaroszuk"|||"IBM Tivoli Monitoring 6.2.2 kbbacf1 - Local Privilege Escalation"|35112.sh
+kernel||35161|2012-01-12|zx2c4|2.6.39||"Linux Kernel 2.6.39 < 3.2.2 (x86/x64) - 'Mempodipper' Local Privilege Escalation (2)"|35161.c
+other||35234|2014-11-14|skynet-13|||"OSSEC 2.8 - 'hosts.deny' Local Privilege Escalation"|35234.py
+kernel||35370|2014-11-25|"Kaiqu Chen"|3.14.5||"Linux Kernel 3.14.5 (CentOS 7 / RHEL) - 'libfutex' Local Privilege Escalation"|35370.c
+other||35450|2014-12-03|"Juan Sacco"|||"VFU 4.10-1.1 - Local Buffer Overflow"|35450.txt
+other||35595|2014-12-23|"SEC Consult"|||"GParted 0.14.1 - OS Command Execution"|35595.txt
+other||35681|2011-04-29|"Stephane Chauveau"|||"OProfile 0.9.6 - 'opcontrol' Utility 'set_event()' Local Privilege Escalation"|35681.txt
+other||35746|2015-01-11|"prdelka & ‏sfan55"|||"RedStar 3.0 Desktop - Enable sudo Privilege Escalation"|35746.sh
+other||35748|2015-01-11|prdelka|||"RedStar 2.0 Desktop - 'World-writeable rc.sysinit' Local Privilege Escalation"|35748.txt
+other||35749|2015-01-11|RichardG|||"RedStar 3.0 Desktop - 'Software Manager swmng.app' Local Privilege Escalation"|35749.txt
+other||36229|2015-02-25|"Bas van den Berg"|||"VFU 4.10-1.1 - Move Entry Buffer Overflow"|36229.py
+other||36257|2011-10-26|"Buguroo Offensive Security"|||"Trend Micro IWSS 3.1 - Local Privilege Escalation"|36257.txt
+other||36294|2011-11-07|"Vasiliy Kulikov"|||"Linux Kernel 3.0.4 - '/proc/interrupts' Password Length Local Information Disclosure"|36294.c
+service||36430|2011-12-08|anonymous|||"HP Application Lifestyle Management 11 - 'GetInstalledPackages' Local Privilege Escalation"|36430.sh
+other||36564|2015-03-30|"Sebastian Krahmer"|||"Fedora 21 setroubleshootd 3.2.22 - Local Privilege Escalation"|36564.txt
+other||36571|2012-01-17|"Gary Poster"|||"OverlayFS inode Security Checks - 'inode.c' Local Security Bypass"|36571.sh
+other||36746|2015-04-14|"Tavis Ormandy"|||"Apport/Abrt (Ubuntu / Fedora) - Local Privilege Escalation"|36746.c
+other||36747|2015-04-14|"Tavis Ormandy"|||"Abrt (Fedora 21) - Race Condition"|36747.c
+other||36782|2015-04-17|"Ricardo F. Teixeira"|||"Apport 2.14.1 (Ubuntu 14.04.2) - Local Privilege Escalation"|36782.sh
+other||36820|2015-04-23|"Tavis Ormandy"|||"usb-creator 0.2.x (Ubuntu 12.04/14.04/14.10) - Local Privilege Escalation"|36820.txt
+other||36855|2015-04-29|"Ben Sheppard"|||"Ninja Privilege Escalation Detection and Prevention System 0.1.3 - Race Condition Privilege Escalation"|36855.py
+other||36887|2012-02-29|Ludwig|||"GNOME NetworkManager 0.x - Local Arbitrary File Access"|36887.py
+other||36966|2012-03-13|"Ryan Lortie"|||"LightDM 1.0.6 - Arbitrary File Deletion"|36966.txt
+other||37088|2015-05-23|rebel|||"Apport (Ubuntu 14.04/14.10/15.04) - Race Condition Privilege Escalation"|37088.c
+other||37089|2015-05-23|"Tavis Ormandy"|||"Fuse 2.9.3-15 - Local Privilege Escalation"|37089.txt
+kernel||37167|2015-06-01|"Hacker Fantastic"|||"Linux Kernel (PonyOS 3.0) - VFS Permissions Local Privilege Escalation"|37167.c
+kernel||37168|2015-06-01|"Hacker Fantastic"|||"Linux Kernel (PonyOS 3.0) - ELF Loader Local Privilege Escalation"|37168.txt
+kernel||37183|2015-06-02|"Hacker Fantastic"|||"Linux Kernel (PonyOS 3.0) - TTY 'ioctl()' Local Privilege Escalation"|37183.c
+other||37265|2015-06-11|"Andrew Widdersheim"|||"OSSEC 2.7 < 2.8.1 - 'diff' Local Privilege Escalation"|37265.txt
+kernel||37292|2015-06-16|rebel|3.13.0||"Linux Kernel 3.13.0 < 3.19 (Ubuntu 12.04/14.04/14.10/15.04) - 'overlayfs' Local Privilege Escalation"|37292.c
+kernel||37293|2015-06-16|rebel|3.13.0||"Linux Kernel 3.13.0 < 3.19 (Ubuntu 12.04/14.04/14.10/15.04) - 'overlayfs' Local Privilege Escalation (Access /etc/shadow)"|37293.txt
+other||37543|2012-07-26|"Jay Fenlason"|||"Linux Kernel 2.6.x - 'rds_recvmsg()' Local Information Disclosure"|37543.c
+other||37631|2012-08-13|"Joseph S. Myer"|||"GNU glibc - Multiple Local Stack Buffer Overflow Vulnerabilities"|37631.c
+other||37710|2015-07-28|"daniel svartman"|||"Sudo 1.8.14 (RHEL 5/6/7 / Ubuntu) - 'Sudoedit' Unauthorized Privilege Escalation"|37710.txt
+other||37898|2012-09-30|infodox|||"Reaver Pro - Local Privilege Escalation"|37898.py
+other||37937|2012-10-09|"Brad Spengler"|||"Linux Kernel 3.2.x - 'uname()' System Call Local Information Disclosure"|37937.c
+other||37975|2015-08-26|"Juan Sacco"|||"ZSNES 1.51 - Local Buffer Overflow"|37975.py
+other||37987|2015-08-27|"Juan Sacco"|||"FENIX 0.92 - Local Buffer Overflow"|37987.py
+other||37988|2015-08-27|"Juan Sacco"|||"BSIGN 0.4.5 - Local Buffer Overflow"|37988.py
+other||38232|2013-01-21|anonymous|||"GNU Coreutils 'sort' Text Utility - Local Buffer Overflow"|38232.txt
+other||38298|2013-02-06|"Sebastian Pipping"|||"xNBD - '/tmp/xnbd.log' Insecure Temporary File Handling"|38298.txt
+other||38353|2015-09-29|halfdog|||"Apport 2.19 (Ubuntu 15.04) - Local Privilege Escalation"|38353.txt
+other||38357|2013-02-28|Technion|||"rpi-update - Insecure Temporary File Handling / Security Bypass"|38357.c
+kernel||38390|2013-03-13|"Sebastian Krahmer"|3.3.5||"Linux Kernel 3.0 < 3.3.5 - 'CLONE_NEWUSER CLONE_FS' Local Privilege Escalation"|38390.c
+other||38473|2015-10-15|soyer|||"Linux Kernel 3.17 - 'Python ctypes and memfd_create' noexec File Security Bypass"|38473.py
+kernel||38559|2013-06-07|"Kees Cook"|3.3.5||"Linux Kernel 3.3.5 - 'b43' Wireless Driver Privilege Escalation"|38559.txt
+other||38775|2015-11-20|Metasploit|||"Chkrootkit - Local Privilege Escalation (Metasploit)"|38775.rb
+other||38817|2013-10-26|"Daniel Kahn Gillmor"|||"Poppler 0.14.3 - '/utils/pdfseparate.cc' Local Format String"|38817.txt
+other||38832|2015-12-01|rebel|||"RHEL 7.0/7.1 - 'abrt/sosreport' Local Privilege Escalation"|38832.py
+other||38937|2014-01-01|anonymous|||"Apache Libcloud Digital Ocean API - Local Information Disclosure"|38937.txt
+other||39010|2015-12-17|zx2c4|||"QEMU (Gentoo) - Local Privilege Escalation"|39010.c
+other||39112|2014-03-10|cenobyte|||"QNX - '.Phgrafx' File Enumeration"|39112.txt
+other||39134|2015-12-30|"Larry W. Cashdollar"|||"DeleGate 9.9.13 - Local Privilege Escalation"|39134.txt
+kernel||39166|2016-01-05|rebel|4.3.3||"Linux Kernel 4.3.3 (Ubuntu 14.04/15.10) - 'overlayfs' Local Privilege Escalation (1)"|39166.c
+other||39207|2014-05-25|"Raphael Geissert"|||"dpkg Source Package - Index: pseudo-header Processing Multiple Local Directory Traversals"|39207.txt
+other||39214|2014-05-28|"Salva Peiro"|||"Linux Kernel 3.3.5 - '/drivers/media/media-device.c' Local Information Disclosure"|39214.c
+other||39217|2016-01-11|"Hacker Fantastic"|||"Amanda 3.3.1 - Local Privilege Escalation"|39217.c
+kernel||39230|2016-01-12|halfdog|4.3.3||"Linux Kernel 4.3.3 - 'overlayfs' Local Privilege Escalation (2)"|39230.c
+other||39244|2016-01-15|"Hacker Fantastic"|||"Amanda 3.3.1 - 'amstar' Command Injection Privilege Escalation"|39244.txt
+kernel||39277|2016-01-19|"Perception Point Team"|4.4.1||"Linux Kernel 4.4.1 - REFCOUNT Overflow Use-After-Free in Keyrings Local Privilege Escalation (1)"|39277.c
+other||39285|2016-01-21|"Juan Sacco"|||"xWPE 1.5.30a-2.1 - Local Buffer Overflow"|39285.py
+kernel||39433|2016-02-10|"King's Way"|||"Deepin Linux 15 - 'lastore-daemon' Local Privilege Escalation"|39433.py
+other||39535|2016-03-09|"Hacker Fantastic"|||"Exim 4.84-3 - Local Privilege Escalation"|39535.sh
+other||39549|2016-03-10|"Dawid Golunski"|||"Exim < 4.86.2 - Local Privilege Escalation"|39549.txt
+other||39628|2016-03-28|"Google Security Research"|||"FireEye - Malware Input Processor Privilege Escalation"|39628.txt
+other||39673|2016-04-07|"Juan Sacco"|||"Mess Emulator 0.154-3.1 - Local Buffer Overflow"|39673.py
+other||39692|2016-04-13|"Juan Sacco"|||"Texas Instrument Emulator 3.03 - Local Buffer Overflow"|39692.py
+other||39702|2016-04-15|Metasploit|||"Exim - 'perl_startup' Local Privilege Escalation (Metasploit)"|39702.rb
+other||39734|2016-04-26|"Juan Sacco"|||"Yasr Screen Reader 0.6.9 - Local Buffer Overflow"|39734.py
+other||39764|2016-05-04|"Juan Sacco"|||"TRN Threaded USENET News Reader 3.6-23 - Local Stack Overflow"|39764.py
+other||39769|2016-05-04|"Timo Lindfors"|||"Zabbix Agent 3.0.1 - 'mysql.size' Shell Command Injection"|39769.txt
+other||39771|2016-05-04|"Google Security Research"|||"Linux Kernel (Ubuntu 14.04.3) - 'perf_event_open()' Can Race with execve() (Access /etc/shadow)"|39771.txt
+kernel||39772|2016-05-04|"Google Security Research"|||"Linux Kernel 4.4.x (Ubuntu 16.04) - 'double-fdput()' bpf(BPF_PROG_LOAD) Privilege Escalation"|39772.txt
+other||39810|2016-05-13|"Juan Sacco"|||"NRSS Reader 0.3.9 - Local Stack Overflow"|39810.py
+other||39811|2016-05-13|R-73eN|||"runAV mod_security - Arbitrary Command Execution"|39811.txt
+other||39938|2016-06-13|HaHwul|||"iSQL 1.0 - Command Injection"|39938.rb
+other||39967|2016-06-16|"Nate Kettlewell"|||"SolarWinds Virtualization Manager - Local Privilege Escalation"|39967.txt
+kernel||39992|2016-06-21|"Google Security Research"|||"Linux Kernel - 'ecryptfs' '/proc/$pid/environ' Local Privilege Escalation"|39992.md
+kernel||40003|2016-01-19|"Federico Bento"|4.4.1||"Linux Kernel 4.4.1 - REFCOUNT Overflow Use-After-Free in Keyrings Local Privilege Escalation (2)"|40003.c
+other||40023|2016-06-27|"Juan Sacco"|||"PInfo 0.6.9-5.1 - Local Buffer Overflow"|40023.py
+other||40025|2016-06-27|"Juan Sacco"|||"HNB 1.9.18-10 - Local Buffer Overflow"|40025.py
+other||40054|2016-07-04|halfdog|||"Exim 4 (Debian 8 / Ubuntu 16.04) - Spool Privilege Escalation"|40054.c
+other||40169|2013-08-22|"Tavis Ormandy"|||"VMware - Setuid VMware-mount Popen lsb_release Privilege Escalation"|40169.txt
+other||40203|2016-08-05|"Juan Sacco"|||"zFTP Client 20061220 - 'Connection Name' Local Buffer Overflow"|40203.py
+other||40270|2016-08-19|"Shadow Brokers"|||"Watchguard Firewalls - 'ESCALATEPLOWMAN' ifconfig Privilege Escalation"|40270.txt
+other||40360|2016-09-12|"Dawid Golunski"|||"MySQL / MariaDB / PerconaDB 5.5.51/5.6.32/5.7.14 - Code Execution / Privilege Escalation"|40360.py
+other||40392|2016-09-19|"Juan Sacco"|||"EKG Gadu 1.9~pre+r2855-3+b1 - Local Buffer Overflow"|40392.py
+service||40394|2016-09-19|Metasploit|||"Docker Daemon - Local Privilege Escalation (Metasploit)"|40394.rb
+other||40450|2016-10-03|"Dawid Golunski"|||"Apache Tomcat 8/7/6 (Debian-Based Distros) - Local Privilege Escalation"|40450.txt
+other||40465|2016-10-05|KoreLogic|||"Cisco Firepower Threat Management Console 6.0.1 - Hard-Coded MySQL Credentials"|40465.txt
+other||40488|2016-10-10|"Dawid Golunski"|||"Apache Tomcat 8/7/6 (RedHat Based Distros) - Local Privilege Escalation"|40488.txt
+kernel||40489|2016-10-10|"Qian Zhang"|4.6.2||"Linux Kernel 4.6.2 (Ubuntu 16.04.1) - 'IP6T_SO_SET_REPLACE' Local Privilege Escalation"|40489.txt
+kernel||40503|2016-10-11|Metasploit|3.13.1||"Linux Kernel 3.13.1 - 'Recvmmsg' Local Privilege Escalation (Metasploit)"|40503.rb
+other||40611|2016-10-19|"Phil Oester"|||"Linux Kernel 2.6.22 < 3.9 - 'Dirty COW' /proc/self/mem Race Condition (Write Access Method)"|40611.c
+kernel||40616|2016-10-21|"Robin Verton"|2.6.22||"Linux Kernel 2.6.22 < 3.9 (x86/x64) - 'Dirty COW /proc/self/mem' Race Condition Privilege Escalation (SUID Method)"|40616.c
+other||40634|2016-10-27|"Juan Sacco"|||"GNU GTypist 2.9.5-2 - Local Buffer Overflow"|40634.py
+other||40678|2016-11-01|"Dawid Golunski"|||"MySQL / MariaDB / PerconaDB 5.5.x/5.6.x/5.7.x - 'mysql' System User Privilege Escalation / Race Condition"|40678.c
+other||40679|2016-11-01|"Dawid Golunski"|||"MySQL / MariaDB / PerconaDB 5.5.x/5.6.x/5.7.x - 'root' System User Privilege Escalation"|40679.sh
+kernel||40688|2016-11-02|Metasploit|||"Linux Kernel (Ubuntu / Fedora / RedHat) - 'Overlayfs' Local Privilege Escalation (Metasploit)"|40688.rb
+kernel||40759|2016-11-14|Metasploit|||"Linux Kernel 4.4 (Ubuntu 16.04) - 'BPF' Local Privilege Escalation (Metasploit)"|40759.rb
+other||40768|2016-11-16|"Dawid Golunski"|||"Nginx (Debian Based Distros + Gentoo) - 'logrotate' Local Privilege Escalation"|40768.sh
+other||40774|2016-11-18|"Vincent Malguy"|||"Nagios 4.2.2 - Local Privilege Escalation"|40774.sh
+other||40788|2016-11-18|"Google Security Research"|||"Palo Alto Networks PanOS - 'root_trace' Local Privilege Escalation"|40788.txt
+other||40789|2016-11-18|"Google Security Research"|||"Palo Alto Networks PanOS - 'root_reboot' Local Privilege Escalation"|40789.txt
+other||40810|2010-02-08|spender|||"Linux Kernel 2.6.18 - 'move_pages()' Information Leak"|40810.c
+kernel||40812|2013-12-16|spender|2.6.10||"Linux Kernel 2.6.10 < 2.6.31.5 - 'pipe.c' Local Privilege Escalation"|40812.c
+other||40838|2016-10-26|"Phil Oester"|||"Linux Kernel 2.6.22 < 3.9 - 'Dirty COW PTRACE_POKEDATA' Race Condition (Write Access Method)"|40838.c
+kernel||40839|2016-11-28|FireFart|2.6.22||"Linux Kernel 2.6.22 < 3.9 - 'Dirty COW' 'PTRACE_POKEDATA' Race Condition Privilege Escalation (/etc/passwd Method)"|40839.c
+kernel||40847|2016-11-27|"Gabriele Bonacini"|2.6.22||"Linux Kernel 2.6.22 < 3.9 - 'Dirty COW /proc/self/mem' Race Condition Privilege Escalation (/etc/passwd Method)"|40847.cpp
+other||40921|2016-12-15|"Dawid Golunski"|||"Nagios < 4.2.4 - Local Privilege Escalation"|40921.sh
+other||40936|2016-12-18|"Hacker Fantastic"|||"Naenara Browser 3.5 (RedStar 3.0 Desktop) - 'JACKRABBIT' Client-Side Command Execution"|40936.html
+other||40937|2016-12-14|"Donncha OCearbhaill"|||"Apport 2.x (Ubuntu Desktop 12.10 < 16.04) - Local Code Execution"|40937.txt
+other||40938|2016-12-18|"Hacker Fantastic"|||"RedStar 3.0 Server - 'Shellshock' 'BEAM' / 'RSSMON' Command Injection"|40938.py
+other||40943|2016-12-13|"Chris Evans"|||"Google Chrome (Fedora 25 / Ubuntu 16.04) - 'tracker-extract' / 'gnome-video-thumbnailer' + 'totem' Drive-By Download"|40943.txt
+other||40953|2016-12-22|"Jaka Hudoklin"|||"Vesta Control Panel 0.9.8-16 - Local Privilege Escalation"|40953.sh
+other||40962|2016-12-23|"Google Security Research"|||"OpenSSH < 7.4 - 'UsePrivilegeSeparation Disabled' Forwarded Unix Domain Sockets Privilege Escalation"|40962.txt
+other||41022|2017-01-09|"Daniel Hodson"|||"Firejail - Local Privilege Escalation"|41022.md
+other||41076|2017-01-16|"Juan Sacco"|||"iSelect v1.4 - Local Buffer Overflow"|41076.py
+other||41152|2017-01-24|"Donald Buczek"|||"GNU Screen 4.5.0 - Local Privilege Escalation (PoC)"|41152.txt
+other||41154|2017-01-25|"Xiphos Research Ltd"|||"GNU Screen 4.5.0 - Local Privilege Escalation"|41154.sh
+other||41158|2015-12-02|halfdog|||"Man-db 2.6.7.1 - Local Privilege Escalation"|41158.md
+other||41171|2017-01-24|"Sebastian Krahmer"|||"Systemd 228 (SUSE 12 SP2 / Ubuntu Touch 15.04) - Local Privilege Escalation"|41171.txt
+other||41173|2017-01-26|"Federico Bento"|||"OpenSSH 6.8 < 6.9 - 'PTY' Local Privilege Escalation"|41173.c
+other||41196|2017-01-27|"Wolfgang Hotwagner"|||"Oracle VM VirtualBox < 5.0.32 / < 5.1.14 - Local Privilege Escalation"|41196.txt
+other||41240|2017-02-03|"Kristian Erik Hermansen"|||"ntfs-3g (Debian 9) - Local Privilege Escalation"|41240.sh
+other||41356|2017-02-14|"Google Security Research"|||"ntfs-3g - Unsanitized modprobe Environment Privilege Escalation"|41356.txt
+other||41435|2016-12-26|Prajith|||"Shutter 0.93.1 - Code Execution"|41435.txt
+kernel||41458|2017-02-26|"Andrey Konovalov"|4.4.0||"Linux Kernel 4.4.0 (Ubuntu) - DCCP Double-Free Privilege Escalation"|41458.c
+other||41597|2017-03-13|"Google Security Research"|||"Oracle VM VirtualBox - Cooperating VMs can Escape from Shared Folder"|41597.txt
+other||41760|2016-02-22|halfdog|||"Ubuntu < 15.10 - PT Chown Arbitrary PTs Access Via User Namespace Privilege Escalation"|41760.txt
+other||41761|2016-02-19|halfdog|||"AUFS (Ubuntu 15.10) - 'allow_userns' Fuse/Xattr User Namespaces Privilege Escalation"|41761.txt
+other||41762|2016-11-22|halfdog|||"Ubuntu 14.04/15.10 - User Namespace Overlayfs Xattr SetGID Privilege Escalation"|41762.txt
+other||41763|2016-11-22|halfdog|||"Ubuntu 15.10 - 'USERNS ' Overlayfs Over Fuse Privilege Escalation"|41763.txt
+other||41764|2016-01-21|halfdog|||"NTP - Local Privilege Escalation"|41764.txt
+other||41765|2015-03-12|halfdog|||"Ubuntu 15.04 (Development) - 'Upstart' Logrotation Privilege Escalation"|41765.txt
+kernel||41766|2012-10-19|halfdog|||"Vm86 - Syscall Task Switch Kernel Panic Denial of Service / Privilege Escalation"|41766.txt
+kernel||41770|2011-01-17|halfdog|2.6.32||"Linux Kernel 2.6.32 (Ubuntu 10.04) - '/proc' Handling SUID Privilege Escalation"|41770.txt
+other||41786|2017-04-03|"Chris Hebert"|||"Bluecoat ASG 6.6/CAS 1.3 - Local Privilege Escalation (Metasploit)"|41786.rb
+kernel||41875|2017-04-02|"Hacker Fantastic"|||"Linux Kernel (PonyOS 4.0) - 'fluttershy' LD_LIBRARY_PATH Local Privilege Escalation"|41875.py
+kernel||41886|2017-04-15|"Nassim Asrir"|4.8.0||"Linux Kernel 4.8.0 UDEV < 232 - Local Privilege Escalation"|41886.c
+kernel||41907|2017-04-20|"Google Security Research"|5.1.14||"Oracle VM VirtualBox 5.1.14 r112924 - Unprivileged Host User to Host Kernel Privilege Escalation via ALSA config"|41907.c
+other||41923|2017-04-25|"G. Geshev"|||"LightDM (Ubuntu 16.04/16.10) - 'Guest Account' Local Privilege Escalation"|41923.txt
+other||41955|2017-05-02|Metasploit|||"Ghostscript 9.21 - Type Confusion Arbitrary Command Execution (Metasploit)"|41955.rb
+other||41973|2017-05-08|"Google Security Research"|||"Xen 64bit PV Guest - pagetable use-after-type-change Breakout"|41973.txt
+kernel||41994|2017-05-11|"Andrey Konovalov"|4.8.0||"Linux Kernel 4.8.0-41-generic (Ubuntu) - Packet Socket Local Privilege Escalation"|41994.c
+kernel||41995|2017-03-22|"Andrey Konovalov"|||"Linux Kernel 3.11 < 4.8 0 - 'SO_SNDBUFFORCE' / 'SO_RCVBUFFORCE' Local Privilege Escalation"|41995.c
+kernel||41999|2016-02-22|"Andrey Konovalov"|||"Linux Kernel 3.x (Ubuntu 14.04 / Mint 17.3 / Fedora 22) - Double-free usb-midi SMEP Privilege Escalation"|41999.txt
+kernel||42045|2017-05-22|"Google Security Research"|12.5.2||"VMware Workstation for Linux 12.5.2 build-4638234 - ALSA Configuration Host Local Privilege Escalation"|42045.c
+other||42053|2017-05-18|Stealth|||"KDE 4/5 - 'KAuth' Local Privilege Escalation"|42053.c
+other||42076|2017-05-26|"Juan Sacco"|||"JAD Java Decompiler 1.5.8e - Local Buffer Overflow"|42076.py
+other||42183|2017-06-14|"Qualys Corporation"|||"Sudo 1.8.20 - 'get_process_ttyname()' Local Privilege Escalation"|42183.c
+other||42255|2017-06-26|"Juan Sacco"|||"JAD Java Decompiler 1.5.8e - Local Buffer Overflow (NX Enabled)"|42255.py
+other||42265|2017-06-28|"Juan Sacco"|||"Flat Assembler 1.7.21 - Local Buffer Overflow"|42265.py
+other||42305|2017-07-10|"Paul Taylor"|||"NfSen < 1.3.7 / AlienVault OSSIM < 5.3.6 - Local Privilege Escalation"|42305.txt
+other||42356|2017-07-20|"Martin Pizala"|||"Docker Daemon - Unprotected TCP Socket"|42356.txt
+other||42357|2017-07-24|"Juan Sacco"|||"MAWK 1.3.3-17 - Local Buffer Overflow"|42357.py
+other||42424|2017-08-03|j0lama|||"DNSTracer 1.9 - Local Buffer Overflow"|42424.py
+other||42611|2017-09-04|mame|||"RubyGems < 2.6.13 - Arbitrary File Overwrite"|42611.txt
+other||42626|2017-09-06|"Google Security Research"|||"Tor (Linux) - X11 Linux Sandbox Breakout"|42626.c
+kernel||42887|2017-09-26|"Qualys Corporation"|3.10.0||"Linux Kernel 3.10.0-514.21.2.el7.x86_64 / 3.10.0-514.26.1.el7.x86_64 (CentOS 7) - SUID Position Independent Executable 'PIE' Local Privilege Escalation"|42887.c
+other||42936|2017-10-02|Sysdream|||"UCOPIA Wireless Appliance < 5.1.8 - Local Privilege Escalation"|42936.md
+other||42937|2017-10-02|Sysdream|||"UCOPIA Wireless Appliance < 5.1.8 - Restricted Shell Escape"|42937.md
+other||43006|2017-10-17|"X41 D-Sec GmbH"|||"shadowsocks-libev 3.1.0 - Command Execution"|43006.txt
+other||43007|2017-10-17|"X41 D-Sec GmbH"|||"Shadowsocks - Log File Command Execution"|43007.txt
+kernel||43029|2017-10-22|"@XeR_0x2A & @chaign_c"|4.14.0||"Linux Kernel 4.14.0-rc4+ - 'waitid()' Local Privilege Escalation"|43029.c
+kernel||43127|2017-11-06|"Chris Salls"|||"Linux Kernel 4.13 (Ubuntu 17.10) - 'waitid()' SMEP/SMAP/Chrome Sandbox Privilege Escalation"|43127.c
+other||43331|2017-12-13|"Qualys Corporation"|||"GNU C Library Dynamic Loader glibc ld.so - Memory Leak / Buffer Overflow"|43331.txt
+kernel||43345|2017-12-15|anonymous|4.10.15||"Linux kernel < 4.10.15 - Race Condition Privilege Escalation"|43345.c
+other||43359|2017-01-04|"Sebastian Krahmer"|||"Firejail < 0.9.44.4 / < 0.9.38.8 LTS - Local Sandbox Escape"|43359.c
+kernel||43418|2017-08-13|"Andrey Konovalov"|4.4.0||"Linux Kernel < 4.4.0-83 / < 4.8.0-58 (Ubuntu 14.04/16.04) - Local Privilege Escalation (KASLR / SMEP)"|43418.c
+other||43449|2018-01-05|Metasploit|||"VMware Workstation - ALSA Config File Local Privilege Escalation (Metasploit)"|43449.rb
+other||43775|2018-01-16|halfdog|||"glibc < 2.26 - 'getcwd()' Local Privilege Escalation"|43775.c
+other||43935|2018-01-29|"Michael Orlitzky"|||"systemd (systemd-tmpfiles) < 236 - 'fs.protected_hardlinks=0' Local Privilege Escalation"|43935.txt
+other||43971|2018-02-05|Metasploit|||"Apport/ABRT - 'chroot' Local Privilege Escalation (Metasploit)"|43971.rb
+other||43979|2018-02-05|"Juan Sacco"|||"BOCHS 2.6-5 - Local Buffer Overflow"|43979.py
+other||44023|2018-02-12|Metasploit|||"Juju-run Agent - Privilege Escalation (Metasploit)"|44023.rb
+other||44024|2018-02-12|Metasploit|||"glibc - '$ORIGIN' Expansion Privilege Escalation (Metasploit)"|44024.rb
+other||44025|2018-02-12|Metasploit|||"glibc - 'LD_AUDIT' Arbitrary DSO Load Privilege Escalation (Metasploit)"|44025.rb
+kernel||44049|2017-11-23|SecuriTeam|||"Linux Kernel (Ubuntu 17.04) - 'XFRM' Local Privilege Escalation"|44049.md
+other||44064|2017-06-30|SecuriTeam|||"Odoo CRM 10.0 - Code Execution"|44064.md
+other||44097|2018-02-16|Metasploit|||"ABRT - 'raceabrt' Privilege Escalation (Metasploit)"|44097.rb
+other||44204|2017-08-19|"Ren Kimura"|||"WebKitGTK 2.1.2 (Ubuntu 14.04) - Heap based Buffer Overflow"|44204.md
+kernel||44205|2017-07-24|"Ren Kimura"|||"Linux Kernel - 'BadIRET' Local Privilege Escalation"|44205.md
+service||44246|2018-03-05|KoreLogic|||"Sophos UTM 9.410 - 'loginuser' 'confd' Service Privilege Escalation"|44246.txt
+other||44279|2018-03-12|"Juan Sacco"|||"SC 7.16 - Stack-Based Buffer Overflow"|44279.py
+kernel||44298|2018-03-16|"Bruce Leidl"|4.4.0||"Linux Kernel < 4.4.0-116 (Ubuntu 16.04.4) - Local Privilege Escalation"|44298.c
+kernel||44303|2017-12-11|anonymous|||"Linux Kernel 4.13 (Debian 9) - Local Privilege Escalation"|44303.c
+other||44325|2018-03-22|"Gregory Draperi"|||"Linux Kernel < 4.15.4 - 'show_floppy' KASLR Address Leak"|44325.c
+other||44331|2018-03-23|"Juan Sacco"|||"Crashmail 1.6 - Stack-Based Buffer Overflow (ROP)"|44331.py
+other||44426|2018-04-09|"Juan Sacco"|||"PMS 0.42 - Local Stack-Based Overflow (ROP)"|44426.py
+other||44452|2018-04-06|Pirhack|||"GNU Beep 1.3 - 'HoleyBeep' Local Privilege Escalation"|44452.py
+service||44523|2018-04-24|Metasploit|||"lastore-daemon D-Bus - Privilege Escalation (Metasploit)"|44523.rb
+other||44601|2018-05-06|"Harry Sintonen"|||"GNU wget - Cookie Injection"|44601.txt
+other||44633|2018-05-16|Metasploit|||"Libuser - 'roothelper' Local Privilege Escalation (Metasploit)"|44633.rb
+other||44652|2018-05-18|"Kevin Kirsche"|||"DynoRoot DHCP Client - Command Injection"|44652.py
+kernel||44654|2018-05-18|Metasploit|4.8.0||"Linux 4.8.0 < 4.8.0-46 - AF_PACKET packet_set_ring Privilege Escalation (Metasploit)"|44654.rb
+kernel||44677|2018-05-21|Metasploit|2.6.30||"Linux 2.6.30 < 2.6.36-rc8 - Reliable Datagram Sockets (RDS) Privilege Escalation (Metasploit)"|44677.rb
+other||44688|2018-05-22|"Paul Taylor"|||"Dell EMC RecoverPoint boxmgmt CLI < 5.1.2 - Arbitrary File Read"|44688.txt
+kernel||44696|2018-05-22|Metasploit|4.4.0||"Linux 4.4.0 < 4.4.0-53 - 'AF_PACKET chocobo_root' Local Privilege Escalation (Metasploit)"|44696.rb
+other||44797|2018-05-29|LiquidWorm|||"GNU Barcode 0.99 - Buffer Overflow"|44797.txt
+other||44798|2018-05-29|LiquidWorm|||"GNU Barcode 0.99 - Memory Leak"|44798.txt
+other||44806|2018-05-30|"Qualys Corporation"|||"Procps-ng - Multiple Vulnerabilities"|44806.txt
+other||44842|2018-06-05|"Dhiraj Mishra"|||"WebKitGTK+ < 2.21.3 - Crash (PoC)"|44842.txt
+other||44889|2018-06-13|Metasploit|||"glibc - 'realpath()' Privilege Escalation (Metasploit)"|44889.rb
+other||44899|2018-06-18|"Adam Greenhill"|||"Nikto 2.1.6 - CSV Injection"|44899.txt
+other||44904|2018-06-18|"Fakhri Zulkifli"|||"Redis-cli < 5.0 - Buffer Overflow (PoC)"|44904.py
+other||44920|2018-06-21|"Paul Taylor"|||"Dell EMC RecoverPoint < 5.1.2 - Local Root Command Execution"|44920.txt
+other||45009|2018-07-11|"Todor Donev"|||"Awk to Perl 1.007-5 - Buffer Overflow (PoC)"|45009.txt
+kernel||45010|2018-07-10|rlarabee|4.13.9||"Linux Kernel < 4.13.9 (Ubuntu 16.04 / Fedora 27) - Local Privilege Escalation"|45010.c
+kernel||45058|2018-07-19|Metasploit|||"Linux - BPF Sign Extension Local Privilege Escalation (Metasploit)"|45058.rb
+other||45089|2018-07-21|neonsea|||"Inteno’s IOPSYS - (Authenticated) Local Privilege Escalation"|45089.py
+other||45130|2018-08-02|0x09AL|||"Imperva SecureSphere 11.5 / 12.0 / 13.0 - Privilege Escalation"|45130.py
+other||45132|2018-08-02|0x09AL|||"SecureSphere 12.0.0.50 - SealMode Shell Escape (Metasploit)"|45132.rb
+kernel||45147|2018-08-03|Metasploit|||"Linux Kernel - UDP Fragmentation Offset 'UFO' Privilege Escalation (Metasploit)"|45147.rb
+other||45175|2018-08-09|"Andrey Konovalov"|||"Linux Kernel 4.14.7 (Ubuntu 16.04 / CentOS 7) - (KASLR & SMEP Bypass) Arbitrary File Read"|45175.c
+other||45184|2018-08-13|"Johannes Segitz"|||"PostgreSQL 9.4-0.5.3 - Privilege Escalation"|45184.sh
+other||45205|2018-08-16|PeregrineX|||"WebkitGTK+ 2.20.3 - 'ImageBufferCairo::getImageData()' Buffer Overflow (PoC)"|45205.txt
+other||45243|2018-08-22|"Google Security Research"|||"Ghostscript - Multiple Vulnerabilities"|45243.txt
+other||45288|2018-08-29|"Juan Sacco"|||"SIPP 3.3 - Stack-Based Buffer Overflow"|45288.py
+other||45313|2018-08-31|Metasploit|||"Network Manager VPNC 1.2.6 - 'Username' Local Privilege Escalation (Metasploit)"|45313.rb
+other||45369|2018-09-10|Metasploit|||"Ghostscript - Failed Restore Command Execution (Metasploit)"|45369.rb
+other||45372|2018-08-28|"Reno Robert"|||"VirtualBox 5.2.6.r120293 - VM Escape"|45372.txt
+other||45407|2018-09-13|"Google Security Research"|||"Chrome OS 10820.0.0 dev-channel - app->VM via garcon TCP Command Socket"|45407.txt
+kernel||45497|2018-09-26|"Google Security Research"|||"Linux Kernel - VMA Use-After-Free via Buggy vmacache_flush_all() Fastpath Local Privilege Escalation"|45497.txt
+other||45528|2018-10-04|vr_system|||"virtualenv 16.0.0 - Sandbox Escape"|45528.txt
+other||45548|2018-10-05|"Junio C Hamano"|||"Git Submodule - Arbitrary Code Execution (PoC)"|45548.txt
+kernel||45553|2018-10-02|Lexfo|4.11.8||"Linux Kernel < 4.11.8 - 'mq_notify: double sock_put()' Local Privilege Escalation"|45553.c
+other||45573|2018-10-09|"Google Security Research"|||"ghostscript - executeonly Bypass with errorhandler Setup"|45573.txt
+other||45575|2018-10-09|Metasploit|||"ifwatchd - Privilege Escalation (Metasploit)"|45575.rb
+other||45631|2018-10-16|joernchen|||"Git Submodule - Arbitrary Code Execution"|45631.md
+other||45715|2018-10-29|"Google Security Research"|||"systemd - 'chown_one()' Dereference Symlinks"|45715.txt
+other||45798|2018-11-06|"Dhiraj Mishra"|||"libiec61850 1.3 - Stack Based Buffer Overflow"|45798.txt
+other||45804|2018-11-07|"Magnus Klaaborg Stubman"|||"OpenSLP 2.0.0 - Multiple Vulnerabilities"|45804.txt
+other||45832|2018-11-13|bolonobolo|||"xorg-x11-server < 1.20.1 - Local Privilege Escalation"|45832.py
+other||45846|2018-11-14|"Magnus Klaaborg Stubman"|||"ntpd 4.2.8p10 - Out-of-Bounds Read (PoC)"|45846.py
+other||45865|2018-11-14|"Anton Lopanitsyn"|||"PHP 5.2.3 imap (Debian Based) - 'imap_open' disable_functions Bypass"|45865.php
+other||45886|2018-11-16|"Google Security Research"|||"Linux - Broken uid/gid Mapping for Nested User Namespaces"|45886.txt
+other||45913|2018-11-29|Metasploit|||"Unitrends Enterprise Backup - bpserverd Privilege Escalation (Metasploit)"|45913.rb
+kernel||45915|2018-11-29|Metasploit|||"Linux - Nested User Namespace idmap Limit Local Privilege Escalation (Metasploit)"|45915.rb
+other||46006|2018-12-19|"Jinbum Park"|||"Linux Kernel 4.4 - 'rtnetlink' Stack Memory Disclosure"|46006.c
+other||46044|2018-10-22|mirchr|||"Keybase keybase-redirector - '$PATH' Local Privilege Escalation"|46044.md
+other||46186|2019-01-16|Metasploit|||"blueman - set_dhcp_handler D-Bus Privilege Escalation (Metasploit)"|46186.rb
+other||46241|2019-01-24|Metasploit|||"AddressSanitizer (ASan) - SUID Executable Privilege Escalation (Metasploit)"|46241.rb
+other||46341|2019-02-11|Metasploit|||"Evince - CBT File Command Injection (Metasploit)"|46341.rb
+other||46359|2019-02-12|feexd|||"runc < 1.0-rc6 (Docker < 18.09.2) - Container Breakout (1)"|46359.md
+other||46361|2019-02-13|"Chris Moberly"|||"snapd < 2.37 (Ubuntu) - 'dirty_sock' Local Privilege Escalation (1)"|46361.py
+other||46362|2019-02-13|"Chris Moberly"|||"snapd < 2.37 (Ubuntu) - 'dirty_sock' Local Privilege Escalation (2)"|46362.py
+other||46369|2019-02-13|embargo|||"runc < 1.0-rc6 (Docker < 18.09.2) - Container Breakout (2)"|46369.md
+other||46676|2019-04-08|cfreal|||"Apache 2.4.17 < 2.4.38 - 'apache2ctl graceful' 'logrotate' Local Privilege Escalation"|46676.php
+other||46730|2019-04-19|Metasploit|||"SystemTap 1.3 - MODPROBE_OPTIONS Privilege Escalation (Metasploit)"|46730.rb
+other||46807|2019-05-08|strider|||"MiniFtp - 'parseconf_load_setting' Buffer Overflow"|46807.txt
+other||46973|2019-06-04|Arminius|||"Vim < 8.1.1365 / Neovim < 0.3.6 - Arbitrary Code Execution"|46973.md
+other||46978|2019-06-10|s4vitar|||"Ubuntu 18.04 - 'lxd' Privilege Escalation"|46978.sh
+other||46989|2019-06-14|s4vitar|||"CentOS 7.6 - 'ptrace_scope' Privilege Escalation"|46989.sh
+other||46996|2019-06-17|"Marco Ivaldi"|||"Exim 4.87 - 4.91 - Local Privilege Escalation"|46996.sh
+other||47009|2019-06-18|"Guy Levin"|||"Serv-U FTP Server < 15.1.7 - Local Privilege Escalation (1)"|47009.c
+other||47017|2019-06-20|Metasploit|||"Cisco Prime Infrastructure - Runrshell Privilege Escalation (Metasploit)"|47017.rb
+other||47072|2019-07-03|Metasploit|||"Serv-U FTP Server - prepareinstallation Privilege Escalation (Metasploit)"|47072.rb
+other||47133|2019-07-17|"Google Security Research"|||"Linux - Broken Permission and Object Lifetime Handling for PTRACE_TRACEME"|47133.txt
+container||47147|2019-07-19|dominikczarnotatob|||"Docker - Container Escape"|47147.txt
+other||47149|2019-07-22|"AMRI Amine"|||"Comtrend-AR-5310 - Restricted Shell Escape"|47149.txt
+kernel||47163|2019-07-24|bcoles|5.1.17||"Linux Kernel 4.10 < 5.1.17 - 'PTRACE_TRACEME' pkexec Local Privilege Escalation"|47163.c
+kernel||47164|2018-11-21|bcoles|4.19.2||"Linux Kernel 4.15.x < 4.19.2 - 'map_write() CAP_SYS_ADMIN' Local Privilege Escalation (cron Method)"|47164.sh
+kernel||47165|2019-01-04|bcoles|4.19.2||"Linux Kernel 4.15.x < 4.19.2 - 'map_write() CAP_SYS_ADMIN' Local Privilege Escalation (dbus Method)"|47165.sh
+kernel||47166|2018-11-21|bcoles|4.19.2||"Linux Kernel 4.15.x < 4.19.2 - 'map_write() CAP_SYS_ADMIN' Local Privilege Escalation (ldpreload Method)"|47166.sh
+kernel||47167|2019-01-04|bcoles|4.19.2||"Linux Kernel 4.15.x < 4.19.2 - 'map_write() CAP_SYS_ADMIN' Local Privilege Escalation (polkit Method)"|47167.sh
+kernel||47168|2018-12-29|bcoles|4.8.0||"Linux Kernel 4.8.0-34 < 4.8.0-45 (Ubuntu / Linux Mint) - Packet Socket Local Privilege Escalation"|47168.c
+kernel||47169|2018-12-29|bcoles|4.4.0||"Linux Kernel < 4.4.0/ < 4.8.0 (Ubuntu 14.04/16.04 / Linux Mint 17/18 / Zorin) - Local Privilege Escalation (KASLR / SMEP)"|47169.c
+other||47231|2019-08-12|"Etienne Lacoche"|||"Ghidra (Linux) 9.0.4 - .gar Arbitrary Code Execution"|47231.py
+other||47307|2019-08-26|Metasploit|||"Exim 4.87 / 4.91 - Local Privilege Escalation (Metasploit)"|47307.rb
+other||47344|2019-09-03|Metasploit|||"ktsuss 1.4 - suid Privilege Escalation (Metasploit)"|47344.rb
+other||47345|2019-09-03|Metasploit|||"ptrace - Sudo Token Privilege Escalation (Metasploit)"|47345.rb
+other||47421|2019-09-25|Metasploit|||"ABRT - sosreport Privilege Escalation (Metasploit)"|47421.rb
+other||47466|2019-10-07|"Wolfgang Hotwagner"|||"logrotten 3.15.1 - Privilege Escalation"|47466.c
+other||47482|2019-10-10|max7253|||"ASX to MP3 converter 3.1.3.7 - '.asx' Local Stack Overflow (DEP Bypass) (Metasploit)"|47482.rb
+other||47502|2019-10-15|"Mohin Paramasivam"|||"sudo 1.8.27 - Security Bypass"|47502.py
+other||47507|2019-10-16|s4vitar|||"X.Org X Server 1.20.4 - Local Stack Overflow"|47507.py
+other||47543|2019-10-24|Metasploit|||"Linux Polkit - pkexec helper PTRACE_TRACEME local root (Metasploit)"|47543.rb
+other||47580|2019-11-04|Metasploit|||"Micro Focus (HPE) Data Protector - SUID Privilege Escalation (Metasploit)"|47580.rb
+other||47687|2019-11-02|anonymous|||"ClamAV < 0.102.0 - 'bytecode_vm' Code Execution"|47687.py
+other||47703|2019-11-21|"Mike Gualtieri"|||"GNU Mailutils 3.7 - Privilege Escalation"|47703.txt
+other||47726|2019-11-29|"Mohin Paramasivam"|||"Bash 5.0 Patch 11 - SUID Priv Drop Exploit"|47726.sh
+kernel||47779|2019-12-16|"Google Security Research"|||"Linux 5.3 - Privilege Escalation via io_uring Offload of sendmsg() onto Kernel Thread with Kernel Creds"|47779.txt
+other||47804|2019-12-30|Metasploit|||"Reptile Rootkit - reptile_cmd Privilege Escalation (Metasploit)"|47804.rb
+other||47957|2020-01-23|Metasploit|||"Reliable Datagram Sockets (RDS) - rds_atomic_free_op NULL pointer dereference Privilege Escalation (Metasploit)"|47957.rb
+other||47999|2020-02-05|hieubl|||"Socat 1.7.3.4 - Heap-Based Overflow (PoC)"|47999.txt
+other||48000|2020-02-05|redtimmysec|||"xglance-bin 11.00 - Privilege Escalation"|48000.sh
+other||48052|2020-02-06|"Dylan Katz"|||"Sudo 1.8.25p - 'pwfeedback' Buffer Overflow"|48052.sh
+other||48131|2020-02-24|Metasploit|||"Diamorphine Rootkit - Signal Privilege Escalation (Metasploit)"|48131.rb
+other||48185|2020-03-09|Metasploit|||"OpenSMTPD - OOB Read Local Privilege Escalation (Metasploit)"|48185.rb
+other||48803|2020-09-11|"Cody Winkler"|||"Gnome Fonts Viewer 3.34.0 - Heap Corruption"|48803.py
+other||48961|2020-10-28|"Vaisha Bernard"|||"PackageKit < 1.1.13 - File Existence Disclosure"|48961.py
+other||48962|2020-10-28|"Vaisha Bernard"|||"aptdaemon < 1.1.1 - File Existence Disclosure"|48962.py
+other||48963|2020-10-28|"Vaisha Bernard"|||"Blueman < 2.1.4 - Local Privilege Escalation"|48963.txt
+other||49259|2020-12-15|"Carter Yagemann"|||"libbabl 0.1.62 - Broken Double Free Detection (PoC)"|49259.c
+other||49572|2021-02-18|Gr33nh4t|||"Apport 2.20 - Local Privilege Escalation"|49572.txt
+other||49765|2021-04-14|"Central InfoSec"|||"MariaDB 10.2 - 'wsrep_provider' OS Command Execution"|49765.txt
+other||50011|2021-06-15|"J Smith"|||"Polkit 0.105-26 0.117-2 - Local Privilege Escalation"|50011.sh
+kernel||50135|2021-07-15|TheFloW|2.6.19||"Linux Kernel 2.6.19 < 5.9 - 'Netfilter Local Privilege Escalation"|50135.c
+kernel||50236|2021-08-30|ninpwn|||"MySQL User-Defined (Linux) x32 / x86_64 - 'sys_exec' Local Privilege Escalation (2)"|50236.py
+other||50385|2021-10-07|"Kiran Ghimire"|||"Google SLO-Generator 2.0.0 - Code Execution"|50385.txt
+other||50465|2021-10-29|LIWEI|||"Mini-XML 3.2 - Heap Overflow"|50465.c
+kernel||50541|2021-11-23|"Ujas Dhami"|||"Linux Kernel 5.1.x - 'PTRACE_TRACEME' pkexec Local Privilege Escalation (2)"|50541.c
+other||50689|2022-01-27|"Lance Biggerstaff"|||"PolicyKit-1 0.105-31 - Privilege Escalation"|50689.txt
+kernel||50808|2022-03-08|"Lance Biggerstaff"|5.16.11||"Linux Kernel 5.8 < 5.16.11 - Local Privilege Escalation (DirtyPipe)"|50808.c
+other||50858|2022-04-07|"Marlon Petry"|||"binutils 2.37 - Objdump Segmentation Fault"|50858.txt
+other||50911|2022-05-11|UNICORD|||"ExifTool 12.23 - Arbitrary Code Execution"|50911.py
+other||51180|2023-04-01|nu11secur1ty|||"Enlightenment v0.25.3 - Privilege escalation"|51180.txt
+other||51217|2023-04-03|n3m1.sys|||"sudo 1.8.0 to 1.9.12p1 - Privilege Escalation"|51217.sh
+other||51252|2023-04-05|"Manuel Andreas"|||"GNU screen v4.9.0 - Privilege Escalation"|51252.py
+other||51331|2023-04-08|"Rafay Baloch and Muhammad Samak"|||"Google Chrome 109.0.5414.74 - Code Execution via missing lib file (Ubuntu)"|51331.txt
+other||51384|2023-04-20|nu11secur1ty|||"Linux Kernel 6.2 - Userspace Processes To Enable Mitigation"|51384.txt
+other||51834|2024-02-28|"Alexys (0x177git)"|||"(shellcode) Linux-x64 - create a shell with execve() sending argument using XOR (/bin//sh) [55 bytes]"|51834.c
+other||51934|2024-03-28|"Amirhossein Bahramizadeh"|||"Dell Security Management Server <1.9.0 - Local Privilege Escalation"|51934.sh
+other||52095|2025-03-26|r0binak|||"NVIDIA Container Toolkit 1.16.1 - Time-of-check Time-of-Use (TOCTOU)"|52095.txt
+other||52268|2025-04-22|cybersploit|||"tar-fs 3.0.0 - Arbitrary File Write/Overwrite"|52268.py
