@@ -16,7 +16,8 @@ wget http://ip:port/feather_vuln_db.txt
 chmod +x FeatherScan_v4_5
 ./FeatherScan_v4_5
 
-执行示例：、
+执行示例：
+、
 ┌──(root㉿kali)-[/data/FeatherScan/FeatherScan_v4_5_]
 └─# ./FeatherScan_v4_5
 
