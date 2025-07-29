@@ -17,7 +17,7 @@ chmod +x FeatherScan_v4_5
 ./FeatherScan_v4_5
 
 执行示例：
-、
+```
 ┌──(root㉿kali)-[/data/FeatherScan/FeatherScan_v4_5_]
 └─# ./FeatherScan_v4_5
 
@@ -61,7 +61,7 @@ y
   普通检查: 快速检测常见提权向量 (SUID, 可写文件, 内核漏洞等)
   深入检查: 包括普通检查 + 服务爆破 + 敏感文件深度扫描 [y/N]
 ^C                                                                                                                      
-
+```
 ## 前言
 
 这是不是最新版！！！！最新版请加入泷羽Sec Freebuf帮会【泷羽Sec资料库】获取。官网 http://longyusec.com
